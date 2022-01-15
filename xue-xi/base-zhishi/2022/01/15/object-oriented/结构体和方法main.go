@@ -3,14 +3,14 @@ package tree
 import "fmt"
 
 type TreeNode struct {
-	value int
-	left ,right *TreeNode
+	Value int
+	Left ,Right *TreeNode
 }
 
 //自定义构造函数 （工厂）
 func creatNodes(value int) *TreeNode {
 	//栈上 还是 堆上 根据运行环境的编辑器
-	return &TreeNode{value: value}
+	return &TreeNode{Value: value}
 }
 
 
@@ -30,28 +30,29 @@ func Xx2() {
 	var root TreeNode
 	root.SetValue(100)
 	fmt.Println(root)
-	root.left = new(TreeNode)
-	root.right = new(TreeNode)
-	root.left.SetValue(200)
+	root.Left = new(TreeNode)
+	root.Right = new(TreeNode)
+	root.Left.SetValue(200)
 
-	root.left.right = new(TreeNode)
-	root.left.right.SetValue(500)
+	root.Left.Right = new(TreeNode)
+	root.Left.Right.SetValue(500)
 
-	root.right.SetValue(300)
-	fmt.Println(root.left)
-	fmt.Println(root.right)
+	root.Right.SetValue(300)
+	fmt.Println(root.Left)
+	fmt.Println(root.Right)
 	//root.left.right.setValue(400)
 	//root.right.setValue(500)
 	//root.right.right.setValue(300)
 	root.Traverse()
 }
 
-func (node *TreeNode) print() {
+
+func (node *TreeNode) Print() {
 	if node == nil {
 		fmt.Println("print value to nil ..")
 		return
 	}
-	fmt.Println(node.value)
+	fmt.Println(node.Value)
 }
 
 func (node *TreeNode) SetValue (value int) {
@@ -59,17 +60,17 @@ func (node *TreeNode) SetValue (value int) {
 		fmt.Println("setValue to nil ..")
 		return
 	}
-	node.value = value
+	node.Value = value
 }
-
+//先序遍历
 func (node *TreeNode) Traverse() {
 	if node == nil {
-		fmt.Println("traverse")
+		//fmt.Println("traverse")
 		return
 	}
-	node.left.Traverse()
-	node.print()
-	node.right.Traverse()
+	node.Left.Traverse()
+	node.Print()
+	node.Right.Traverse()
 }
 
 
@@ -79,15 +80,15 @@ func Xx1 () {
 	var root TreeNode
 	fmt.Println(root)
 
-	root = TreeNode{value: 3}
+	root = TreeNode{Value: 3}
 	fmt.Println(root)
 
-	root.left = &TreeNode{}
-	root.right = &TreeNode{5,nil ,nil}
+	root.Left = &TreeNode{}
+	root.Right = &TreeNode{5,nil ,nil}
 	fmt.Println(root)
 	//切片
 	nodes := []TreeNode {
-		{value: 6},
+		{Value: 6},
 		{},
 		{8, nil ,nil},
 	}
