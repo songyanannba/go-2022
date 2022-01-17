@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/1.4/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/1.1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/1.3/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/1.5/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/1.4">
+  <component name="RunManager" selected="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/1.5">
     <configuration name="go build go-2022/xue-xi/base-zhishi/2022/01/16/functional" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$" />
@@ -80,8 +79,18 @@
       <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/1.4/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/1.5" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-2022/xue-xi/huanxi-go/mic-basic-lessons/1.5" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/1.5/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/1.5" />
         <item itemvalue="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/1.4" />
         <item itemvalue="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/1.1" />
         <item itemvalue="Go Build.go build go-2022/xue-xi/base-zhishi/2022/01/16/functional" />
