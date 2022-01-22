@@ -1,0 +1,75 @@
+<?php
+/*对于长度为n的一个字符串A（仅包含数字，大小写英文字母），请设计一个高效算法，计算其中最长回文子串的长度。
+输入："ababc"
+返回值：3
+说明：
+最长的回文子串为"aba"与"bab"，长度都为3*/
+
+
+function getLongestPalindrome($A)
+{
+    $len = strlen($A);
+    $res = '';
+    $resLen = 0;
+
+    for ($i = 0; $i < $len; $i++) {
+        $res1 = palindrome($A, $i, $i);
+        $res2 = palindrome($A, $i, $i + 1);
+        $res1Len = strlen($res1);
+        $res2Len = strlen($res2);
+        $resLen = strlen($res);
+        $res = $resLen > $res1Len ? $res : $res1;
+        $resLen = strlen($res);
+        $res = $resLen > $res2Len ? $res : $res2;
+        $resLen = strlen($res);
+    }
+    return $resLen;
+}
+
+function palindrome($s, $l, $r)
+{
+    $len = strlen($s);
+    for (; $l >= 0 && $r < $len && $s[$l] == $s[$r];) {
+        $l--;
+        $r++;
+    }
+    return substr($s, $l + 1, $r - $l - 1);
+}
+
+
+function getLongestPalindrome1($A)
+{
+    $len = strlen($A);
+    if ($A < 2) {
+        return $len;
+    }
+
+    $max = 1;
+    for ($i = 0; $i < $len; $i++) {
+        $j = $i - 1;
+        $k = $i + 1;
+        while ($j >= 0 && $k < $len && $A[$j] == $A[$k]) {
+            $j--;
+            $k++;
+        }
+        if ($k - $j - 1 > $max) {
+            $max = $k - $j - 1;
+        }
+
+        $j = $i ;
+        $k = $i + 1;
+        while ($j >= 0 && $k < $len && $A[$j] == $A[$k]) {
+            $j--;
+            $k++;
+        }
+        if ($k - $j - 1 > $max) {
+            $max = $k - $j - 1;
+        }
+    }
+    return $max;
+}
+
+
+$A = 'ababc';
+print_r([getLongestPalindrome($A)]);
+print_r([getLongestPalindrome1($A)]);
