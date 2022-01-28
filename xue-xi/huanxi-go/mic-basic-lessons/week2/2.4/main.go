@@ -10,7 +10,6 @@ type Swim interface {
 	Swimming()
 }
 
-
 type Sport interface {
 	Run
 	Swim
