@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="" />
+    <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week2/2.1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,10 +45,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week1" />
       <recent name="$PROJECT_DIR$/xue-xi/base-zhishi/2022/01/25/err" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-2022/xue-xi/base-zhishi/2022/01/25/err">
+  <component name="RunManager" selected="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week2/2.1">
     <configuration name="go build go-2022/xue-xi/base-zhishi/2022/01/25/err" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$" />
@@ -53,15 +57,6 @@
       <package value="go-2022/xue-xi/base-zhishi/2022/01/25/err" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/xue-xi/base-zhishi/2022/01/25/err/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/1-11" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-2022/xue-xi/huanxi-go/mic-basic-lessons/1-11" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/1-11/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/1-12" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -91,13 +86,22 @@
       <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/1-14/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week2/2.1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-2022/xue-xi/huanxi-go/mic-basic-lessons/week2/2.1" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week2/2.1/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week2/2.1" />
         <item itemvalue="Go Build.go build go-2022/xue-xi/base-zhishi/2022/01/25/err" />
         <item itemvalue="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/1-14" />
         <item itemvalue="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/1-13" />
         <item itemvalue="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/1-12" />
-        <item itemvalue="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/1-11" />
       </list>
     </recent_temporary>
   </component>
