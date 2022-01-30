@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/4-curd/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/5-gorm-tag/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/5-gorm-tag/model/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/5-gorm-tag/model/product.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/xiangmu/ttaanngo/good-service/internal/model/goods.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/xiangmu/ttaanngo/good-service/internal/model/goods_ext.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/xiangmu/ttaanngo/good-service/internal/model/goods_file.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,11 +62,12 @@
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week2/2.4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/5-gorm-tag/model" />
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week1" />
       <recent name="$PROJECT_DIR$/xue-xi/base-zhishi/2022/01/25/err" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/4-curd">
+  <component name="RunManager" selected="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/5-gorm-tag">
     <configuration name="go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/1-orm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$" />
@@ -89,6 +95,15 @@
       <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/4-curd/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/5-gorm-tag" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/5-gorm-tag" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/5-gorm-tag/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build week3/5-gin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week3" />
@@ -98,22 +113,13 @@
       <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week3/5-gin/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build week3/7-gin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week3" />
-      <kind value="PACKAGE" />
-      <package value="week3/7-gin" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week3/7-gin/main.go" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/5-gorm-tag" />
         <item itemvalue="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/4-curd" />
         <item itemvalue="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/3-zidongqianyi" />
         <item itemvalue="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/1-orm" />
         <item itemvalue="Go Build.go build week3/5-gin" />
-        <item itemvalue="Go Build.go build week3/7-gin" />
       </list>
     </recent_temporary>
   </component>

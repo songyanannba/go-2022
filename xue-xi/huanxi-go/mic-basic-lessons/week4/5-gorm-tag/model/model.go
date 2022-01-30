@@ -1,1 +1,1 @@
-package __gorm_tag
+package model
