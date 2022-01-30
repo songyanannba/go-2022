@@ -8,7 +8,7 @@ import (
 
 func Cook() {
 	//defer 先进后出 栈 （子弹上膛）
-	//为什么要defer 1 防止内存溢出
+	//为什么要defer 1-orm 防止内存溢出
 	defer fmt.Println("开饭")
 	defer fmt.Println("播放音乐")
 	fmt.Println("买菜")

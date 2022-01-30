@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/1-orm/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/3-zidongqianyi/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/3-zidongqianyi/model/product.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week3/5-gin/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week3/5-gin/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/algorithm/2022/01/最长子数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/algorithm/2022/01/最长子数组.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/algorithm/2022/03/矩阵的最小路径和.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/algorithm/2022/03/矩阵的最小路径和.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/01/16/functional/addr/addr.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/01/16/functional/addr/addr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/01/16/rpcClient/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/01/16/rpcClient/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week1/1-10/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week1/1-10/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week1/1.3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week1/1.3/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week2/2.7/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week2/2.7/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week2/2.8/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week2/2.8/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,23 +73,23 @@
       <recent name="$PROJECT_DIR$/xue-xi/base-zhishi/2022/01/25/err" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build week3/5-gin">
-    <configuration name="go build 1-gin1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/3-zidongqianyi">
+    <configuration name="go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/1-orm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week3/1-gin1" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="1-gin1" />
+      <package value="go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/1-orm" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week3/1-gin1/main.go" />
+      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/1-orm/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build week3/1-gin1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/3-zidongqianyi" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week3" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="week3/1-gin1" />
+      <package value="go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/3-zidongqianyi" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week3/1-gin1/main2.go" />
+      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/3-zidongqianyi/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build week3/3-gin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -110,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/3-zidongqianyi" />
+        <item itemvalue="Go Build.go build go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/1-orm" />
         <item itemvalue="Go Build.go build week3/5-gin" />
         <item itemvalue="Go Build.go build week3/7-gin" />
         <item itemvalue="Go Build.go build week3/3-gin" />
-        <item itemvalue="Go Build.go build week3/1-gin1" />
-        <item itemvalue="Go Build.go build 1-gin1" />
       </list>
     </recent_temporary>
   </component>

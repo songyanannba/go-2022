@@ -4,7 +4,7 @@ import "fmt"
 
 //变量命名规范
 func one() {
-	//1 var 变量名 变量类型
+	//1-orm var 变量名 变量类型
 	var price int32 = 68
 	fmt.Println(price)
 

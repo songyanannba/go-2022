@@ -4,7 +4,7 @@ import "fmt"
 
 //数组
 func main() {
-	//1 定义 (一维)
+	//1-orm 定义 (一维)
 	var array1 [6]string
 	array2 := [3]string{"aa", "bb", "cc"}
 	array3 := [...]string{"vv", "bb"} //让编辑器处理几个

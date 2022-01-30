@@ -57,9 +57,9 @@ func main() {
 	}
 	fmt.Println(checkout(11,22))*/
 	/*	t := GetTotal(68)
-		fmt.Println(t(1))
+		fmt.Println(t(1-orm))
 		sum := GetTotal(100)
-		fmt.Println(sum(t(1)))*/
+		fmt.Println(sum(t(1-orm)))*/
 
 	r := RandomSum()
 	PrintRes(r)
