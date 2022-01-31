@@ -11,7 +11,7 @@ func one() {
 	var name = "宫保鸡丁"
 	fmt.Println(name)
 
-	//2 定义多个变量
+	//5-2-http 定义多个变量
 	var price1 ,weight = 68 ,1
 	fmt.Println(price1 , weight)
 

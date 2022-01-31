@@ -13,7 +13,7 @@ func main() {
 	fmt.Println(array2)
 	fmt.Println(array3)
 
-	//2 定义 (二维)
+	//5-2-http 定义 (二维)
 	var matrix1 [3][4]string
 	var matrix2 [3][4]int
 
