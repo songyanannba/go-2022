@@ -1,16 +1,17 @@
 package main
 
 import (
-	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"net/http"
+	"net/url"
 )
 
 type Result struct {
 	Msg string `json:"msg"`
 }
 
-func GetUrl(url string) (string, error) {
+/*func GetUrl(url string) (string, error) {
 	r, err := http.Get(url)
 	if err != nil {
 		return "", err
@@ -28,31 +29,23 @@ func GetUrl(url string) (string, error) {
 	}
 	return result.Msg, nil
 	//fmt.Println(result.Msg)
-}
+}*/
 
-type val map[string][]string
-
-/*func httpPostForm(url string) (string ,error) {
-	var param val
-	param = make(param)
-	param = map[string][]string{
-		lesson:[]string{"a", "b"},
-	}
-	resp, err := http.PostForm(url, )
-
+func httpPostForm() {
+	resp, err := http.PostForm("http://127.0.0.1:8080/sss",
+		url.Values{"lesson": {"哈哈哈"}})
 	if err != nil {
-		// handle error
+		panic(err)
 	}
-
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		// handle error
+		panic(err)
 	}
 	fmt.Println(string(body))
+	fmt.Println("...end")
 
-}*/
-
+}
 func main() {
 	/*var url1 string = "http://127.0.0.1:8080/hello?lesson=从0学习golang语言"
 	u1, err := GetUrl(url1)
@@ -63,4 +56,5 @@ func main() {
 	GetUrl(url1)
 	fmt.Println("end....")*/
 
+	httpPostForm()
 }
