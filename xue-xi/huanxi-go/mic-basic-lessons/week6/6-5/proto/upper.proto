@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "/pb";
+
+message UpperRequest{
+  int64 id = 1 ;
+  string name = 2 ;
+}
+
+message platfrom {
+  string name = 1;
+  string fansCont = 2;
+}
+
+message UpperResponse {
+  string name = 1 ;
+  platfrom p = 2;
+}
