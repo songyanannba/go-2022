@@ -5,598 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-5/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-5/proto/upper.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/any.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/any.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/any.pb.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/any.pb.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/any.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/any_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/any_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/any_test.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/api.pb.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/api.pb.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/api.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/arena.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/arena.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/arena_impl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/arena_test_util.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/arena_test_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/arena_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/arenastring.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/arenastring.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/arenastring_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/annotation_test_util.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/annotation_test_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/code_generator.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/code_generator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/command_line_interface.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/command_line_interface.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/command_line_interface_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_bootstrap_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_enum.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_enum.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_enum_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_enum_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_extension.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_file.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_file.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_generator.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_generator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_helpers.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_helpers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_map_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_map_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_message.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_message.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_message_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_message_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_message_layout_helper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_move_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_names.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_options.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_padding_optimizer.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_padding_optimizer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_parse_function_generator.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_parse_function_generator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_plugin_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_primitive_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_primitive_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_service.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_service.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_string_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_string_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_test_bad_identifiers.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_test_large_enum_value.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_unittest.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/cpp_unittest.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/cpp/metadata_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_bootstrap_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_doc_comment.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_doc_comment.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_enum.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_enum.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_enum_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_enum_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_field_base.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_field_base.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_generator.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_generator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_generator_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_helpers.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_helpers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_map_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_map_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_message.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_message.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_message_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_message_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_names.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_options.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_primitive_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_primitive_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_reflection_class.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_reflection_class.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_repeated_enum_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_repeated_enum_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_repeated_message_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_repeated_message_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_repeated_primitive_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_repeated_primitive_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_source_generator_base.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_source_generator_base.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_wrapper_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/csharp/csharp_wrapper_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/importer.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/importer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/importer_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_context.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_context.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_doc_comment.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_doc_comment.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_doc_comment_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_enum.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_enum.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_enum_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_enum_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_enum_field_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_enum_field_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_enum_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_enum_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_extension.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_extension_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_extension_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_file.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_file.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_generator.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_generator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_generator_factory.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_generator_factory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_helpers.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_helpers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_kotlin_generator.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_kotlin_generator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_map_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_map_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_map_field_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_map_field_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_message.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_message.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_message_builder.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_message_builder.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_message_builder_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_message_builder_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_message_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_message_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_message_field_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_message_field_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_message_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_message_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_name_resolver.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_name_resolver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_names.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_options.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_plugin_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_primitive_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_primitive_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_primitive_field_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_primitive_field_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_service.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_service.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_shared_code_generator.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_shared_code_generator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_string_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_string_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_string_field_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/java/java_string_field_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/js/js_generator.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/js/js_generator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/js/well_known_types_embed.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/js/well_known_types_embed.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/main.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/mock_code_generator.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/mock_code_generator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/method_dump.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_enum.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_enum.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_enum_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_enum_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_extension.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_extension.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_file.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_file.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_generator.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_generator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_helpers.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_helpers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_helpers_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_map_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_map_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_message.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_message.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_message_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_message_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_nsobject_methods.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_oneof.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_oneof.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_primitive_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/objectivec/objectivec_primitive_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/package_info.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/parser.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/parser_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/php/php_generator.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/php/php_generator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/plugin.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/plugin.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/plugin.pb.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/plugin.pb.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/plugin.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/python/python_generator.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/python/python_generator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/python/python_plugin_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/ruby/ruby_generated_code.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/ruby/ruby_generated_code_pb.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/ruby/ruby_generated_code_proto2.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/ruby/ruby_generated_code_proto2_import.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/ruby/ruby_generated_code_proto2_pb.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/ruby/ruby_generated_pkg_explicit.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/ruby/ruby_generated_pkg_explicit_legacy.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/ruby/ruby_generated_pkg_explicit_legacy_pb.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/ruby/ruby_generated_pkg_explicit_pb.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/ruby/ruby_generated_pkg_implicit.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/ruby/ruby_generated_pkg_implicit_pb.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/ruby/ruby_generator.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/ruby/ruby_generator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/ruby/ruby_generator_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/scc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/subprocess.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/subprocess.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/test_plugin.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/zip_output_unittest.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/zip_writer.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/compiler/zip_writer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/descriptor.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/descriptor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/descriptor.pb.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/descriptor.pb.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/descriptor.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/descriptor_database.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/descriptor_database.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/descriptor_database_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/descriptor_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/drop_unknown_fields_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/duration.pb.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/duration.pb.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/duration.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/dynamic_message.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/dynamic_message.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/dynamic_message_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/empty.pb.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/empty.pb.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/empty.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/explicitly_constructed.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/extension_set.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/extension_set.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/extension_set_heavy.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/extension_set_inl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/extension_set_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/field_access_listener.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/field_mask.pb.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/field_mask.pb.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/field_mask.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_enum_reflection.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_enum_util.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_enum_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_bases.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_bases.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_reflection.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_reflection.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_reflection_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_table_driven.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_table_driven.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_table_driven_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_table_driven_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_tctable_decl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_tctable_full.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_tctable_impl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_tctable_impl.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_tctable_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_util.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/generated_message_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/has_bits.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/implicit_weak_message.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/implicit_weak_message.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/inlined_string_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/inlined_string_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/inlined_string_field_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/coded_stream.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/coded_stream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/coded_stream_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/gzip_stream.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/gzip_stream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/gzip_stream_unittest.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/io_win32.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/io_win32.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/io_win32_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/package_info.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/printer.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/printer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/printer_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/strtod.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/strtod.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/tokenizer.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/tokenizer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/tokenizer_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/zero_copy_stream.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/zero_copy_stream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/zero_copy_stream_impl.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/zero_copy_stream_impl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/zero_copy_stream_impl_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/zero_copy_stream_impl_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/io/zero_copy_stream_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/lite_arena_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/lite_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_entry.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_entry_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_field_inl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_field_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_field_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_lite_test_util.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_lite_test_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_lite_unittest.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_proto2_unittest.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_test.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_test_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_test_util.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_test_util_impl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_type_handler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/map_unittest.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/message.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/message.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/message_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/message_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/message_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/message_unittest.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/metadata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/metadata_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/no_field_presence_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/package_info.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/parse_context.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/parse_context.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/port.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/port_def.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/port_undef.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/preserve_unknown_enum_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/proto3_arena_lite_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/proto3_arena_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/proto3_lite_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/proto3_lite_unittest.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/reflection.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/reflection_internal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/reflection_ops.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/reflection_ops.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/reflection_ops_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/reflection_tester.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/reflection_tester.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/repeated_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/repeated_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/repeated_field_reflection_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/repeated_field_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/repeated_ptr_field.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/repeated_ptr_field.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/service.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/service.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/source_context.pb.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/source_context.pb.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/source_context.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/string_member_robber.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/struct.pb.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/struct.pb.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/struct.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/bytestream.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/bytestream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/bytestream_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/callback.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/casts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/common.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/common.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/common_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/hash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/int128.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/int128.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/int128_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/logging.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/macros.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/map_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/mathutil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/mutex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/once.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/platform_macros.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/port.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/status.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/status.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/status_macros.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/status_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/statusor.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/statusor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/statusor_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/stl_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/stringpiece.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/stringpiece.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/stringpiece_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/stringprintf.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/stringprintf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/stringprintf_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/structurally_valid.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/structurally_valid_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/strutil.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/strutil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/strutil_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/substitute.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/substitute.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/template_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/template_util_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/time.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/time.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/stubs/time_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/test_messages_proto2.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/test_messages_proto3.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/test_util.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/test_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/test_util.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/test_util2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/test_util_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/test_util_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testdata/bad_utf8_string" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testdata/golden_message" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testdata/golden_message_maps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testdata/golden_message_oneof_implemented" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testdata/golden_message_proto3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testdata/golden_packed_fields_message" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testdata/map_test_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testdata/text_format_unittest_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testdata/text_format_unittest_data_oneof_implemented.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testdata/text_format_unittest_data_pointy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testdata/text_format_unittest_data_pointy_oneof.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testdata/text_format_unittest_extensions_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testdata/text_format_unittest_extensions_data_pointy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testing/file.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testing/file.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testing/googletest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testing/googletest.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testing/zcgunzip.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/testing/zcgzip.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/text_format.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/text_format.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/text_format_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/timestamp.pb.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/timestamp.pb.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/timestamp.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/type.pb.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/type.pb.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/type.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_arena.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_custom_options.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_drop_unknown_fields.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_embed_optimize_for.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_empty.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_enormous_descriptor.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_import.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_import_lite.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_import_public.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_import_public_lite.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_lazy_dependencies.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_lazy_dependencies_custom_option.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_lazy_dependencies_enum.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_lite.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_lite_imports_nonlite.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_mset.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_mset_wire_format.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_no_field_presence.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_no_generic_services.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_optimize_for.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_preserve_unknown_enum.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_preserve_unknown_enum2.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_proto3.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_proto3_arena.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_proto3_arena_lite.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_proto3_lite.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_proto3_optional.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unittest_well_known_types.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unknown_field_set.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unknown_field_set.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/unknown_field_set_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/delimited_message_util.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/delimited_message_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/delimited_message_util_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/field_comparator.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/field_comparator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/field_comparator_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/field_mask_util.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/field_mask_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/field_mask_util_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/constants.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/datapiece.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/datapiece.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/default_value_objectwriter.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/default_value_objectwriter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/default_value_objectwriter_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/error_listener.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/error_listener.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/expecting_objectwriter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/field_mask_utility.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/field_mask_utility.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/json_escaping.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/json_escaping.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/json_objectwriter.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/json_objectwriter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/json_objectwriter_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/json_stream_parser.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/json_stream_parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/json_stream_parser_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/location_tracker.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/mock_error_listener.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/object_location_tracker.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/object_source.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/object_writer.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/object_writer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/proto_writer.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/proto_writer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/protostream_objectsource.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/protostream_objectsource.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/protostream_objectsource_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/protostream_objectwriter.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/protostream_objectwriter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/protostream_objectwriter_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/structured_objectwriter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/testdata/anys.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/testdata/books.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/testdata/default_value.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/testdata/default_value_test.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/testdata/field_mask.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/testdata/maps.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/testdata/oneofs.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/testdata/proto3.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/testdata/struct.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/testdata/timestamp_duration.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/testdata/wrappers.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/type_info.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/type_info.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/type_info_test_helper.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/type_info_test_helper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/utility.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/internal/utility.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/json_format.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/json_format_proto3.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/json_util.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/json_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/json_util_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/message_differencer.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/message_differencer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/message_differencer_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/message_differencer_unittest.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/package_info.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/time_util.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/time_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/time_util_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/type_resolver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/type_resolver_util.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/type_resolver_util.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/util/type_resolver_util_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/well_known_types_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/wire_format.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/wire_format.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/wire_format_lite.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/wire_format_lite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/wire_format_unittest.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/wire_format_unittest.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/wrappers.pb.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/wrappers.pb.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/google/protobuf/wrappers.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/proto/todo.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-7/client/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-7/service/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-8/client/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-8/service/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week7/7-1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week7/7-2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week7/7-3/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -653,41 +69,14 @@
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week2/2.4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week7/7-2" />
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week5" />
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week5/5-2-http" />
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/5-gorm-tag/model" />
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week1" />
-      <recent name="$PROJECT_DIR$/xue-xi/base-zhishi/2022/01/25/err" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build mic-basic-lessons/week6/6-8/client">
-    <configuration name="go build mic-basic-lessons/week6/6-6" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons" />
-      <kind value="PACKAGE" />
-      <package value="mic-basic-lessons/week6/6-6" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-6/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build mic-basic-lessons/week6/6-7/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons" />
-      <kind value="PACKAGE" />
-      <package value="mic-basic-lessons/week6/6-7/client" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-7/client/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build mic-basic-lessons/week6/6-7/service" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons" />
-      <kind value="PACKAGE" />
-      <package value="mic-basic-lessons/week6/6-7/service" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-7/service/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build mic-basic-lessons/week7/7-3">
     <configuration name="go build mic-basic-lessons/week6/6-8/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons" />
@@ -706,13 +95,40 @@
       <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week6/6-8/service/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build mic-basic-lessons/week7/7-1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons" />
+      <kind value="PACKAGE" />
+      <package value="mic-basic-lessons/week7/7-1" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week7/7-1/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build mic-basic-lessons/week7/7-2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons" />
+      <kind value="PACKAGE" />
+      <package value="mic-basic-lessons/week7/7-2" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week7/7-2/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build mic-basic-lessons/week7/7-3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons" />
+      <kind value="PACKAGE" />
+      <package value="mic-basic-lessons/week7/7-3" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week7/7-3/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build mic-basic-lessons/week7/7-3" />
+        <item itemvalue="Go Build.go build mic-basic-lessons/week7/7-2" />
+        <item itemvalue="Go Build.go build mic-basic-lessons/week7/7-1" />
         <item itemvalue="Go Build.go build mic-basic-lessons/week6/6-8/client" />
         <item itemvalue="Go Build.go build mic-basic-lessons/week6/6-8/service" />
-        <item itemvalue="Go Build.go build mic-basic-lessons/week6/6-7/client" />
-        <item itemvalue="Go Build.go build mic-basic-lessons/week6/6-7/service" />
-        <item itemvalue="Go Build.go build mic-basic-lessons/week6/6-6" />
       </list>
     </recent_temporary>
   </component>
