@@ -1,13 +1,11 @@
 package internal
 
 import (
-	"fmt"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
 	"log"
-	"mic-trainning-lessons/account_srv/model"
 	"os"
 	"time"
 )
@@ -38,8 +36,8 @@ func InitDB() {
 		panic("数据库连接失败" + err.Error())
 	}
 	//fmt.Println("conn suc ...")
-	err = DB.AutoMigrate(&model.Account{})
+	/*err = DB.AutoMigrate(&model.Account{})
 	if err != nil {
 		fmt.Println(err)
-	}
+	}*/
 }
