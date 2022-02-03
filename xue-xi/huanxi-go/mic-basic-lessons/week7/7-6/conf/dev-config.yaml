@@ -1,0 +1,4 @@
+serverName: "go语言"
+ginConfig:
+  Host: "127.0.0.1"
+  Port: 8081
