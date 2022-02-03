@@ -72,7 +72,13 @@ func (a *AccountServer) GetAccountByMobile(ctx context.Context, req *pb.MobileRe
 	return res, nil
 }
 func (a *AccountServer) GetAccountById(ctx context.Context, req *pb.IdRequest) (*pb.AccountRes, error) {
-	return &pb.AccountRes{}, nil
+	var account model.Account
+	result := internal.DB.First(&account, req.Id)
+	if result.RowsAffected == 0 {
+		return nil, errors.New(custom_error.AccountNoFount)
+	}
+	res := Model2Pb(account)
+	return res, nil
 }
 func (a *AccountServer) AddAccount(ctx context.Context, req *pb.AddAccountRequest) (*pb.AccountRes, error) {
 	return &pb.AccountRes{}, nil
