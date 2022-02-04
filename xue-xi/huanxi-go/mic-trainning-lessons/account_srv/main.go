@@ -25,6 +25,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	fmt.Println("suc...")
 	err = server.Serve(listen)
 	if err != nil {
 		panic(err)

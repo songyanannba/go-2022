@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/biz/accout_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/biz/password.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/biz/password_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_web/hander/AccountHander.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_web/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_web/res/res.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/log/log.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/biz/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/biz/account.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/internal/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/internal/db.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/model/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/model/account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/custom_error/custom_error.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/custom_error/custom_error.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/go.sum" afterDir="false" />
@@ -80,8 +77,26 @@
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week5/5-2-http" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestAccountServer_UpdateAccount in mic-trainning-lessons/account_srv/biz">
-    <configuration name="TestAccountServer_AddAccount in mic-trainning-lessons/account_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build mic-trainning-lessons/account_srv">
+    <configuration name="go build mic-trainning-lessons/account_srv" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons" />
+      <kind value="PACKAGE" />
+      <package value="mic-trainning-lessons/account_srv" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build mic-trainning-lessons/account_web" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons" />
+      <kind value="PACKAGE" />
+      <package value="mic-trainning-lessons/account_web" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_web/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestAccountServer_CheckPassword in mic-trainning-lessons/account_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/biz" />
       <root_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons" />
@@ -90,7 +105,7 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestAccountServer_AddAccount\E$" />
+      <pattern value="^\QTestAccountServer_CheckPassword\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestAccountServer_GetAccountById in mic-trainning-lessons/account_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -103,30 +118,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestAccountServer_GetAccountById\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestAccountServer_GetAccountByMobile in mic-trainning-lessons/account_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/biz" />
-      <root_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons" />
-      <kind value="PACKAGE" />
-      <package value="mic-trainning-lessons/account_srv/biz" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestAccountServer_GetAccountByMobile\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestAccountServer_GetAccountList in mic-trainning-lessons/account_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/biz" />
-      <root_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons" />
-      <kind value="PACKAGE" />
-      <package value="mic-trainning-lessons/account_srv/biz" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestAccountServer_GetAccountList\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestAccountServer_UpdateAccount in mic-trainning-lessons/account_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -143,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build mic-trainning-lessons/account_web" />
+        <item itemvalue="Go Build.go build mic-trainning-lessons/account_srv" />
+        <item itemvalue="Go Test.TestAccountServer_CheckPassword in mic-trainning-lessons/account_srv/biz" />
         <item itemvalue="Go Test.TestAccountServer_UpdateAccount in mic-trainning-lessons/account_srv/biz" />
         <item itemvalue="Go Test.TestAccountServer_GetAccountById in mic-trainning-lessons/account_srv/biz" />
-        <item itemvalue="Go Test.TestAccountServer_GetAccountByMobile in mic-trainning-lessons/account_srv/biz" />
-        <item itemvalue="Go Test.TestAccountServer_GetAccountList in mic-trainning-lessons/account_srv/biz" />
-        <item itemvalue="Go Test.TestAccountServer_AddAccount in mic-trainning-lessons/account_srv/biz" />
       </list>
     </recent_temporary>
   </component>
