@@ -3,14 +3,18 @@ package hander
 import (
 	"context"
 	"fmt"
+	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 	"google.golang.org/grpc"
 	"mic-trainning-lessons/account_srv/proto/pb"
+	"mic-trainning-lessons/account_web/req"
 	"mic-trainning-lessons/account_web/res"
 	"mic-trainning-lessons/custom_error"
+	"mic-trainning-lessons/jwt_op"
 	"mic-trainning-lessons/log"
 	"net/http"
 	"strconv"
+	"time"
 )
 
 func HandleError(err error) string {
@@ -82,4 +86,93 @@ func pb2res(accountRes *pb.AccountRes) res.Account4Res {
 		NickName: accountRes.Nickname,
 		Gender:   accountRes.Gender,
 	}
+}
+
+func LoginByPasswordHandler(c *gin.Context) {
+	var loginByPassword req.LoginByPassword
+	err := c.ShouldBind(&loginByPassword)
+	if err != nil {
+		log.Logger.Error("LoginByPassword出错:" + err.Error())
+		c.JSON(http.StatusOK, gin.H{
+			"msg": "解析参数错误",
+		})
+		return
+	}
+
+	conn, err := grpc.Dial("127.0.0.1:9095", grpc.WithInsecure())
+	if err != nil {
+		s := fmt.Sprintf("AccountListHandler-grpc拨号失败:%s", err.Error())
+		log.Logger.Info(s)
+		e := HandleError(err)
+		c.JSON(http.StatusOK, gin.H{
+			"mag": e,
+		})
+		return
+	}
+
+	client := pb.NewAccountServiceClient(conn)
+
+	r, err := client.GetAccountByMobile(context.Background(), &pb.MobileRequest{
+		Mobile: loginByPassword.Mobile,
+	})
+	if err != nil {
+		s := fmt.Sprintf("GetAccountByMobile失败:%s", err.Error())
+		log.Logger.Info(s)
+		e := HandleError(err)
+		c.JSON(http.StatusOK, gin.H{
+			"mag": e,
+		})
+		return
+	}
+
+	cheRes, err := client.CheckPassword(context.Background(), &pb.CheckAccountRequest{
+		Password:       loginByPassword.Password,
+		HashedPassword: r.Password,
+		AccountId:      uint32(r.Id),
+	})
+	if err != nil {
+		s := fmt.Sprintf("grpc-CheckPassword失败:%s", err.Error())
+		log.Logger.Info(s)
+		e := HandleError(err)
+		c.JSON(http.StatusOK, gin.H{
+			"mag": e,
+		})
+		return
+	}
+	checkResult := "登陆失败"
+	if cheRes.Result {
+		checkResult = "登陆成功"
+		j := jwt_op.NewJWT()
+		now := time.Now()
+		claims := jwt_op.CustomClaims{
+			StandardClaims: jwt.StandardClaims{
+				NotBefore: now.Unix(),
+				ExpiresAt: now.Add(time.Hour * 24 * 30).Unix(),
+			},
+			ID:          uint32(r.Id),
+			NickName:    r.Nickname,
+			AuthorityIs: int32(r.Role),
+		}
+		token, err := j.GenerateJWT(claims)
+		if err != nil {
+			s := fmt.Sprintf("GenerateJWT失败:%s", err.Error())
+			log.Logger.Info(s)
+			e := HandleError(err)
+			c.JSON(http.StatusOK, gin.H{
+				"mag": e,
+			})
+			return
+		}
+		c.JSON(http.StatusOK, gin.H{
+			"mag":    "",
+			"result": checkResult,
+			"token":  token,
+		})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{
+		"mag":    checkResult,
+		"result": checkResult,
+		"token":  "",
+	})
 }

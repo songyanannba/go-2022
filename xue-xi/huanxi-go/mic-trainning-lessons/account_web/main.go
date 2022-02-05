@@ -18,6 +18,7 @@ func main() {
 	accountGroup := r.Group("/v1/account")
 	{
 		accountGroup.GET("/list", hander.AccountListHandler)
+		accountGroup.POST("/login", hander.LoginByPasswordHandler)
 	}
 
 	r.Run(addr)
