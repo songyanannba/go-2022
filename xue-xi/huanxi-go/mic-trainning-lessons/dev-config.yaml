@@ -1,1 +1,4 @@
-signing_key: "go"
+signing_key: "go语言"
+redis:
+  Host: "127.0.0.1"
+  Port: 6379

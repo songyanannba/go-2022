@@ -19,6 +19,7 @@ func main() {
 	{
 		accountGroup.GET("/list", hander.AccountListHandler)
 		accountGroup.POST("/login", hander.LoginByPasswordHandler)
+		accountGroup.GET("/captcha", hander.CaptchaHandler)
 	}
 
 	r.Run(addr)
