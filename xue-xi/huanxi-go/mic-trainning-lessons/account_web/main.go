@@ -22,5 +22,7 @@ func main() {
 		accountGroup.GET("/captcha", hander.CaptchaHandler)
 	}
 
+	r.GET("/health", hander.HealthHandler)
+
 	r.Run(addr)
 }

@@ -5,22 +5,32 @@ import (
 	"github.com/spf13/viper"
 )
 
-type ViperConfig struct {
-	RedisConfig RedisConfig `mapstructure:"redis"`
-}
-
 var ViperConf ViperConfig
+var fileName = "./dev-config.yaml"
 
 func init() {
 	v := viper.New()
-	configName := "dev-config.yaml"
-	v.SetConfigFile(configName)
+	v.SetConfigFile(fileName)
 	v.ReadInConfig()
 	err := v.Unmarshal(&ViperConf)
 	if err != nil {
 		panic(err)
 	}
+	fmt.Println(fileName)
 	fmt.Println(ViperConf)
+	fmt.Println(ViperConf.ConsulConfig.Host)
+	fmt.Println(fileName)
+	fmt.Println("哈哈哈")
+	fmt.Println(ViperConf.AccountWebConfig.SrvName)
+	fmt.Println(ViperConf.AccountWebConfig.Host)
 	fmt.Println("初始化成功...")
 	initRedis()
 }
+
+type ViperConfig struct {
+	RedisConfig RedisConfig `mapstructure:"redis"`
+	ConsulConfig ConsulConfig `mapstructure:"consul"`
+	AccountSrvConfig AccountSrvConfig `mapstructure:"account_srv"`
+	AccountWebConfig AccountWebConfig `mapstructure:"account_web"`
+}
+

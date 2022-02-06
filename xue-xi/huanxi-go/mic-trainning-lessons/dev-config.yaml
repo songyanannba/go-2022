@@ -2,3 +2,20 @@ signing_key: "go语言"
 redis:
   Host: "127.0.0.1"
   Port: 6379
+consul:
+  Host: "192.168.1.4"
+  Port: 8500
+account_srv:
+  srvName: "account_srv"
+  Host: "192.168.1.4"
+  Port: 9095
+  Tags:
+    - happy
+    - account_srv
+account_web:
+  srvName: "account_web"
+  Host: "192.168.1.4"
+  Port: 8081
+  Tags:
+    - happy
+    - account_web
