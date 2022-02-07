@@ -5,11 +5,14 @@ import (
 	"fmt"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
+	"github.com/hashicorp/consul/api"
+	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"mic-trainning-lessons/account_srv/proto/pb"
 	"mic-trainning-lessons/account_web/req"
 	"mic-trainning-lessons/account_web/res"
 	"mic-trainning-lessons/custom_error"
+	"mic-trainning-lessons/internal"
 	"mic-trainning-lessons/jwt_op"
 	"mic-trainning-lessons/log"
 	"net/http"
@@ -37,10 +40,44 @@ func HandleError(err error) string {
 
 func AccountListHandler(c *gin.Context) {
 	//log.Logger.Info("AccountListHandler调试通过...")
+
+	defaultConfig := api.DefaultConfig()
+	consulAddr := fmt.Sprintf("%s:%d",
+		internal.ViperConf.ConsulConfig.Host,
+		internal.ViperConf.ConsulConfig.Port,
+	)
+	defaultConfig.Address = consulAddr
+
+	consulClint, err2 := api.NewClient(defaultConfig)
+	if err2 != nil {
+		zap.S().Error("AccountListHandler - api.NewClient" + err2.Error())
+		c.JSON(http.StatusInternalServerError, gin.H{
+			"msg": "服务器内部错误",
+		})
+		return
+	}
+
+	accountSrvHost := ""
+	accountSrvPort := 0
+	serviceList, err3 := consulClint.Agent().ServicesWithFilter(`Service=="account_srv"`)
+	if err3 != nil {
+		zap.S().Error("AccountListHandler-ServicesWithFilter" + err3.Error())
+		c.JSON(http.StatusInternalServerError, gin.H{
+			"msg": "服务器内部错误1",
+		})
+		return
+	}
+	for _, v := range serviceList {
+		accountSrvHost = v.Address
+		accountSrvPort = v.Port
+	}
+
 	pageNoStr := c.DefaultQuery("pageNo", "1")
 	pageSizeStr := c.DefaultQuery("pageSize", "3")
 
-	conn, err := grpc.Dial("127.0.0.1:9095", grpc.WithInsecure())
+	grpcAddr := fmt.Sprintf("%s:%d", accountSrvHost, accountSrvPort)
+	conn, err := grpc.Dial(grpcAddr, grpc.WithInsecure())
+	//conn, err := grpc.Dial("127.0.0.1:9095", grpc.WithInsecure())
 	if err != nil {
 		s := fmt.Sprintf("AccountListHandler-grpc拨号失败:%s", err.Error())
 		log.Logger.Info(s)
