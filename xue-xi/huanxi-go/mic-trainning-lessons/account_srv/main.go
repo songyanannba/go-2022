@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"mic-trainning-lessons/account_srv/biz"
 	"mic-trainning-lessons/account_srv/proto/pb"
@@ -23,6 +24,7 @@ func main() {
 	pb.RegisterAccountServiceServer(server, &biz.AccountServer{})
 	listen, err := net.Listen("tcp", addr)
 	if err != nil {
+		zap.S().Error("account_srv异常..." + err.Error())
 		panic(err)
 	}
 	fmt.Println("suc...")

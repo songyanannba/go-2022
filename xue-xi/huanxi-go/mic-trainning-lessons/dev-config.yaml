@@ -1,4 +1,10 @@
 signing_key: "go语言"
+db:
+  host: "127.0.0.1"
+  port: 3306
+  dbName: "happy_account_mic_traning"
+  userName: "root"
+  password: "003416nba"
 redis:
   Host: "127.0.0.1"
   Port: 6379
