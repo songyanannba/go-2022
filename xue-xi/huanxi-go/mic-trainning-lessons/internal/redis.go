@@ -18,6 +18,8 @@ func initRedis() {
 	p := ViperConf.RedisConfig.Port
 	addr := fmt.Sprintf("%s:%d", h, p)
 	fmt.Println(addr)
+	fmt.Println(h)
+	fmt.Println(p)
 
 	RedisClient = redis.NewClient(&redis.Options{
 		Addr: addr,
@@ -25,5 +27,11 @@ func initRedis() {
 	ping := RedisClient.Ping(context.Background())
 	fmt.Println(ping)
 	fmt.Println("redis初始化完成...")
+
+	/*	h := config.RedisConfig.Host
+		p := config.RedisConfig.Port
+		fmt.Println(h)
+		fmt.Println("my-redis")
+		fmt.Println(p)*/
 
 }

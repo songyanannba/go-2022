@@ -20,3 +20,12 @@ func TestReg(t *testing.T) {
 		fmt.Println("注册成功...")
 	}
 }
+
+
+func TestGetServiceList(t *testing.T) {
+	GetServiceList()
+}
+
+func TestFilterService(t *testing.T) {
+	FilterService()
+}
