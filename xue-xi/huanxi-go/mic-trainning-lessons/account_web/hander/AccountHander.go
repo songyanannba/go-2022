@@ -38,9 +38,24 @@ func HandleError(err error) string {
 	return ""
 }
 
-func AccountListHandler(c *gin.Context) {
-	//log.Logger.Info("AccountListHandler调试通过...")
+var (
+	accountSrvHost string
+	accountSrvPort int
+	client         pb.AccountServiceClient
+)
 
+func init() {
+	err := initConsul()
+	if err != nil {
+		panic(err)
+	}
+	err = initGrpcClient()
+	if err != nil {
+		panic(err)
+	}
+}
+
+func initConsul() error {
 	defaultConfig := api.DefaultConfig()
 	consulAddr := fmt.Sprintf("%s:%d",
 		internal.ViperConf.ConsulConfig.Host,
@@ -51,47 +66,48 @@ func AccountListHandler(c *gin.Context) {
 	consulClint, err2 := api.NewClient(defaultConfig)
 	if err2 != nil {
 		zap.S().Error("AccountListHandler - api.NewClient" + err2.Error())
-		c.JSON(http.StatusInternalServerError, gin.H{
+		/*c.JSON(http.StatusInternalServerError, gin.H{
 			"msg": "服务器内部错误",
-		})
-		return
+		})*/
+		return err2
 	}
-
-	accountSrvHost := ""
-	accountSrvPort := 0
 	serviceList, err3 := consulClint.Agent().ServicesWithFilter(`Service=="account_srv"`)
 	if err3 != nil {
 		zap.S().Error("AccountListHandler-ServicesWithFilter" + err3.Error())
-		c.JSON(http.StatusInternalServerError, gin.H{
+		/*c.JSON(http.StatusInternalServerError, gin.H{
 			"msg": "服务器内部错误1",
-		})
-		return
+		})*/
+		return err3
 	}
 	for _, v := range serviceList {
 		accountSrvHost = v.Address
 		accountSrvPort = v.Port
 	}
+	return nil
+}
 
-	pageNoStr := c.DefaultQuery("pageNo", "1")
-	pageSizeStr := c.DefaultQuery("pageSize", "3")
-
+func initGrpcClient() error {
 	grpcAddr := fmt.Sprintf("%s:%d", accountSrvHost, accountSrvPort)
 	conn, err := grpc.Dial(grpcAddr, grpc.WithInsecure())
 	//conn, err := grpc.Dial("127.0.0.1:9095", grpc.WithInsecure())
 	if err != nil {
 		s := fmt.Sprintf("AccountListHandler-grpc拨号失败:%s", err.Error())
 		log.Logger.Info(s)
-		e := HandleError(err)
-		c.JSON(http.StatusOK, gin.H{
-			"mag": e,
-		})
-		return
+		//e := HandleError(err)
+		return err
 	}
+	client = pb.NewAccountServiceClient(conn)
+	return nil
+}
 
+func AccountListHandler(c *gin.Context) {
+	//log.Logger.Info("AccountListHandler调试通过...")
+
+	pageNoStr := c.DefaultQuery("pageNo", "1")
+	pageSizeStr := c.DefaultQuery("pageSize", "3")
 	pageNo, _ := strconv.ParseInt(pageNoStr, 10, 32)
 	pageSize, _ := strconv.ParseInt(pageSizeStr, 10, 32)
 
-	client := pb.NewAccountServiceClient(conn)
 	accountL, err := client.GetAccountList(context.Background(), &pb.PagingRequest{
 		PageNo:   uint32(pageNo),
 		PageSize: uint32(pageSize),
