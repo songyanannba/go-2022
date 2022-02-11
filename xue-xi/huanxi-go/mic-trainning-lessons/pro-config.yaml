@@ -1,16 +1,15 @@
 host: '192.168.1.4'
 port: 8848
-namespace: 'dc7c4c11-eff2-4175-a977-50fe4b0ccd7b'
+namespace: '2679aaba-50f1-410d-be50-9aa92aa9aad1'
 dataid: 'account_json'
-group: 'dev'
-
+group: 'pro'
 
 #nacos:
-  #host: '192.168.1.4'
-  #port: 8848
-  #namespace: 'dc7c4c11-eff2-4175-a977-50fe4b0ccd7b'
-  #dataid: 'account_json'
-  #group: 'dev'
+#  host: '192.168.1.4'
+#  port: 8848
+#  namespace: '2679aaba-50f1-410d-be50-9aa92aa9aad1'
+#  dataid: 'account_json'
+#  group: 'pro'
 
 
 #signing_key: "go语言"
@@ -39,4 +38,4 @@ group: 'dev'
 #  Port: 8081
 #  Tags:
 #    - happy
-#    - account_web
+#   - account_web

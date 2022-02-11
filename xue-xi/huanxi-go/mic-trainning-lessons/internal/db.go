@@ -37,11 +37,11 @@ func InitDB() {
 	var err error
 	//dsn := "root:003416nba@tcp(127.0.0.1:3306)/happy_account_mic_traning?charset=utf8mb4&parseTime=True&loc=Local"
 	dsn := fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?charset=utf8mb4&parseTime=True&loc=Local",
-		ViperConf.DBConfig.UserName,
-		ViperConf.DBConfig.Password,
-		ViperConf.DBConfig.Host,
-		ViperConf.DBConfig.Port,
-		ViperConf.DBConfig.DBName,
+		AppConf.DBConfig.UserName,
+		AppConf.DBConfig.Password,
+		AppConf.DBConfig.Host,
+		AppConf.DBConfig.Port,
+		AppConf.DBConfig.DBName,
 	)
 	zap.S().Infof(dsn)
 	DB, err = gorm.Open(mysql.Open(dsn), &gorm.Config{

@@ -36,8 +36,8 @@ func main() {
 	grpc_health_v1.RegisterHealthServer(server, health.NewServer())
 	defaultConfig := api.DefaultConfig()
 	defaultConfig.Address = fmt.Sprintf("%s:%d",
-		internal.ViperConf.ConsulConfig.Host,
-		internal.ViperConf.ConsulConfig.Port)
+		internal.AppConf.ConsulConfig.Host,
+		internal.AppConf.ConsulConfig.Port)
 
 	client, err := api.NewClient(defaultConfig)
 	if err != nil {
@@ -45,8 +45,8 @@ func main() {
 	}
 
 	checkAddr := fmt.Sprintf("%s:%d",
-		internal.ViperConf.AccountSrvConfig.Host,
-		internal.ViperConf.AccountSrvConfig.Port,
+		internal.AppConf.AccountSrvConfig.Host,
+		internal.AppConf.AccountSrvConfig.Port,
 	)
 	check := &api.AgentServiceCheck{
 		GRPC:                           checkAddr,
@@ -55,11 +55,11 @@ func main() {
 		DeregisterCriticalServiceAfter: "5s",
 	}
 	reg := api.AgentServiceRegistration{
-		Name:    internal.ViperConf.AccountSrvConfig.SrvName,
-		ID:      internal.ViperConf.AccountSrvConfig.SrvName,
-		Port:    internal.ViperConf.AccountSrvConfig.Port,
-		Tags:    internal.ViperConf.AccountSrvConfig.Tags,
-		Address: internal.ViperConf.AccountSrvConfig.Host,
+		Name:    internal.AppConf.AccountSrvConfig.SrvName,
+		ID:      internal.AppConf.AccountSrvConfig.SrvName,
+		Port:    internal.AppConf.AccountSrvConfig.Port,
+		Tags:    internal.AppConf.AccountSrvConfig.Tags,
+		Address: internal.AppConf.AccountSrvConfig.Host,
 		Check:   check,
 	}
 	err = client.Agent().ServiceRegister(&reg)

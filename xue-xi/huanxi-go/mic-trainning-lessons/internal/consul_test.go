@@ -7,11 +7,11 @@ import (
 
 func TestReg(t *testing.T) {
 	err := Reg(
-		ViperConf.AccountWebConfig.Host,
-		ViperConf.AccountWebConfig.SrvName,
-		ViperConf.AccountWebConfig.SrvName,
-		ViperConf.AccountWebConfig.Port,
-		ViperConf.AccountWebConfig.Tags,
+		AppConf.AccountWebConfig.Host,
+		AppConf.AccountWebConfig.SrvName,
+		AppConf.AccountWebConfig.SrvName,
+		AppConf.AccountWebConfig.Port,
+		AppConf.AccountWebConfig.Tags,
 	)
 	if err != nil {
 		fmt.Println(err)

@@ -58,8 +58,8 @@ func init() {
 func initConsul() error {
 	defaultConfig := api.DefaultConfig()
 	consulAddr := fmt.Sprintf("%s:%d",
-		internal.ViperConf.ConsulConfig.Host,
-		internal.ViperConf.ConsulConfig.Port,
+		internal.AppConf.ConsulConfig.Host,
+		internal.AppConf.ConsulConfig.Port,
 	)
 	defaultConfig.Address = consulAddr
 

@@ -1,18 +1,18 @@
 package conf
-
+/*
 import (
 	"github.com/spf13/viper"
+	"mic-trainning-lessons/internal"
 )
 
 type AppConfig struct {
-	JWTConfig JWTConfig `mapstructure:"jwt_op"`
+	JWTConfig internal.JWTConfig `mapstructure:"jwt_op"`
 }
 
 var AppConf AppConfig
 
 func init() {
 	v := viper.New()
-	//todo
 	configName := "dev-config.yaml"
 	v.SetConfigFile(configName)
 	v.ReadInConfig()
@@ -20,4 +20,4 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-}
+}*/
