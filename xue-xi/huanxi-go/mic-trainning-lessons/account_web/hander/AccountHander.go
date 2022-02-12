@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
-	"github.com/hashicorp/consul/api"
+	_ "github.com/mbobakov/grpc-consul-resolver"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"mic-trainning-lessons/account_srv/proto/pb"
@@ -39,61 +39,24 @@ func HandleError(err error) string {
 }
 
 var (
-	accountSrvHost string
-	accountSrvPort int
-	client         pb.AccountServiceClient
+	client pb.AccountServiceClient
 )
 
 func init() {
-	err := initConsul()
+	err := initGrpcClient()
 	if err != nil {
 		panic(err)
 	}
-	err = initGrpcClient()
-	if err != nil {
-		panic(err)
-	}
-}
-
-func initConsul() error {
-	defaultConfig := api.DefaultConfig()
-	consulAddr := fmt.Sprintf("%s:%d",
-		internal.AppConf.ConsulConfig.Host,
-		internal.AppConf.ConsulConfig.Port,
-	)
-	defaultConfig.Address = consulAddr
-
-	consulClint, err2 := api.NewClient(defaultConfig)
-	if err2 != nil {
-		zap.S().Error("AccountListHandler - api.NewClient" + err2.Error())
-		/*c.JSON(http.StatusInternalServerError, gin.H{
-			"msg": "服务器内部错误",
-		})*/
-		return err2
-	}
-	serviceList, err3 := consulClint.Agent().ServicesWithFilter(`Service=="account_srv"`)
-	if err3 != nil {
-		zap.S().Error("AccountListHandler-ServicesWithFilter" + err3.Error())
-		/*c.JSON(http.StatusInternalServerError, gin.H{
-			"msg": "服务器内部错误1",
-		})*/
-		return err3
-	}
-	for _, v := range serviceList {
-		accountSrvHost = v.Address
-		accountSrvPort = v.Port
-	}
-	return nil
 }
 
 func initGrpcClient() error {
-	grpcAddr := fmt.Sprintf("%s:%d", accountSrvHost, accountSrvPort)
-	conn, err := grpc.Dial(grpcAddr, grpc.WithInsecure())
-	//conn, err := grpc.Dial("127.0.0.1:9095", grpc.WithInsecure())
+	addr := fmt.Sprintf("%s:%d", internal.AppConf.ConsulConfig.Host, internal.AppConf.ConsulConfig.Port)
+	dialAddr := fmt.Sprintf("consul://%s/%s?wait=14", addr, internal.AppConf.AccountSrvConfig.SrvName)
+	conn, err := grpc.Dial(dialAddr, grpc.WithInsecure(), grpc.WithDefaultServiceConfig(`{"loadBalancingPolicy": "round_robin"}`))
 	if err != nil {
+		zap.S().Fatal(err)
 		s := fmt.Sprintf("AccountListHandler-grpc拨号失败:%s", err.Error())
 		log.Logger.Info(s)
-		//e := HandleError(err)
 		return err
 	}
 	client = pb.NewAccountServiceClient(conn)

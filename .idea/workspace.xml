@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/util/util.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/load_balance/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/相关服务启动.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/5-gorm-tag/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/5-gorm-tag/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week7/7-6/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week7/7-6/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/accountHandler.log" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/accountHandler.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/biz/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/biz/account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_web/hander/AccountHander.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_web/hander/AccountHander.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/util/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/util/util.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,14 +82,14 @@
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week2/2.4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/13/model" />
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/internal" />
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons" />
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_web" />
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv" />
-      <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_srv/internal" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build mic-trainning-lessons/util">
+  <component name="RunManager" selected="Go Build.go build mic-trainning-lessons/account_web">
     <configuration name="go build mic-trainning-lessons/account_srv" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons" />
@@ -111,6 +117,15 @@
       <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/config_center/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build mic-trainning-lessons/load_balance" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons" />
+      <kind value="PACKAGE" />
+      <package value="mic-trainning-lessons/load_balance" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/load_balance/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build mic-trainning-lessons/util" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons" />
@@ -120,25 +135,13 @@
       <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/util/util.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGetServiceList in mic-trainning-lessons/internal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/internal" />
-      <root_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons" />
-      <kind value="PACKAGE" />
-      <package value="mic-trainning-lessons/internal" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestGetServiceList\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build mic-trainning-lessons/util" />
-        <item itemvalue="Go Build.go build mic-trainning-lessons/account_srv" />
         <item itemvalue="Go Build.go build mic-trainning-lessons/account_web" />
+        <item itemvalue="Go Build.go build mic-trainning-lessons/load_balance" />
+        <item itemvalue="Go Build.go build mic-trainning-lessons/account_srv" />
+        <item itemvalue="Go Build.go build mic-trainning-lessons/util" />
         <item itemvalue="Go Build.go build mic-trainning-lessons/config_center" />
-        <item itemvalue="Go Test.TestGetServiceList in mic-trainning-lessons/internal" />
       </list>
     </recent_temporary>
   </component>

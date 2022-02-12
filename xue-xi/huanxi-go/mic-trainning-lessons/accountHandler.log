@@ -1,2 +1,8 @@
 {"level":"info","ts":1644599940.4174972,"caller":"hander/AccountHander.go:117","msg":"GetAccountList-调用失败：rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp :0: connect: can't assign requested address\""}
 {"level":"info","ts":1644600209.5216398,"caller":"hander/AccountHander.go:117","msg":"GetAccountList-调用失败：rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp :0: connect: can't assign requested address\""}
+{"level":"info","ts":1644646515.563956,"caller":"hander/AccountHander.go:82","msg":"GetAccountList-调用失败：rpc error: code = Canceled desc = grpc: the client connection is closing"}
+{"level":"info","ts":1644646638.5225961,"caller":"hander/AccountHander.go:82","msg":"GetAccountList-调用失败：rpc error: code = Canceled desc = grpc: the client connection is closing"}
+{"level":"info","ts":1644646639.646739,"caller":"hander/AccountHander.go:82","msg":"GetAccountList-调用失败：rpc error: code = Canceled desc = grpc: the client connection is closing"}
+{"level":"info","ts":1644646640.514855,"caller":"hander/AccountHander.go:82","msg":"GetAccountList-调用失败：rpc error: code = Canceled desc = grpc: the client connection is closing"}
+{"level":"info","ts":1644646808.247243,"caller":"hander/AccountHander.go:82","msg":"GetAccountList-调用失败：rpc error: code = Canceled desc = grpc: the client connection is closing"}
+{"level":"info","ts":1644646809.290716,"caller":"hander/AccountHander.go:82","msg":"GetAccountList-调用失败：rpc error: code = Canceled desc = grpc: the client connection is closing"}

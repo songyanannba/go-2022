@@ -1,11 +1,10 @@
-package main
+package util
 
 import (
-	"fmt"
 	"net"
 )
 
-func main() {
+func GenRandomPort() int {
 	addr, err := net.ResolveTCPAddr("tcp", "localhost:0")
 	if err != nil {
 		panic(err)
@@ -16,6 +15,5 @@ func main() {
 	}
 	defer listener.Close()
 	port := listener.Addr().(*net.TCPAddr).Port
-	fmt.Println(port)
-
+	return port
 }
