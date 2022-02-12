@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/6-gorm-delete/model"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"log"
+	"mic-basic-lessons/week4/6-gorm-delete/model"
 	"os"
 	"time"
 )
@@ -69,5 +69,5 @@ func main() {
 	db.Delete(&p)
 
 	//批量删除
-	db.Where("tag=?" , 777).Delete(&model.Food{})
+	db.Where("tag=?", 777).Delete(&model.Food{})
 }

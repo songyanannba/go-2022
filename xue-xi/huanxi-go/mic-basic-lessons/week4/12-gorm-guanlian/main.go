@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/12-gorm-guanlian/model"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"log"
+	"mic-basic-lessons/week4/12-gorm-guanlian/model"
 	"os"
 	"time"
 )
@@ -37,7 +37,7 @@ func init() {
 	//db.AutoMigrate(&model.Employer{})
 }
 
-func add(){
+func add() {
 	c1 := model.Company{
 		Name: "面向加薪1",
 	}

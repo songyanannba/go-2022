@@ -13,11 +13,12 @@ func main() {
 	h := internal.ServerConfig.GinConfig.Host
 	p := internal.ServerConfig.GinConfig.Port
 
+
 	addr := fmt.Sprintf("%s:%d", h, p)
-	/*fmt.Println(internal.ServerConfig.ServerName)
+	fmt.Println(internal.ServerConfig.ServerName)
 	fmt.Println(h)
 	fmt.Println(p)
-	fmt.Println(addr)*/
+	fmt.Println(addr)
 	r.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
 			"msg": addr,

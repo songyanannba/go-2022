@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"go-2022/xue-xi/huanxi-go/mic-basic-lessons/week4/5-gorm-tag/model"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"log"
+	"mic-basic-lessons/week4/5-gorm-tag/model"
 	"os"
 	"time"
 )
