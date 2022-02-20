@@ -1,0 +1,36 @@
+{
+	"debug": false,
+	"appName": "product_web",
+	"serverHost": "192.168.1.2",
+	"serverPort": 8081,
+	"product_srv": {
+		"srvName": "product_srv",
+		"Host": "192.168.1.2",
+		"Port": 9096,
+		"Tags": ["happy", "product_srv"]
+	},
+	"product_web": {
+		"srvName": "product_web",
+		"Host": "192.168.1.2",
+		"Port": 8082,
+		"Tags": ["happy", "product_web"]
+	},
+	"db": {
+		"host": "127.0.0.1",
+		"port": 3306,
+		"dbName": "happy_product_mic_tranning",
+		"userName": "root",
+		"password": "003416nba"
+	},
+	"redis": {
+		"Host": "127.0.0.1",
+		"Port": 6379
+	},
+	"consul": {
+		"Host": "192.168.1.2",
+		"Port": 8500
+	},
+	"jwt": {
+		"signing_key": "1234567890"
+	}
+}

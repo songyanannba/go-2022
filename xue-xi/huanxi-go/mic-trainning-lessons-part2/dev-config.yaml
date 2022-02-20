@@ -1,0 +1,42 @@
+host: '192.168.1.2'
+port: 8848
+namespace: 'dc7c4c11-eff2-4175-a977-50fe4b0ccd7b'
+dataid: 'product_json'
+group: 'dev'
+
+
+#nacos:
+  #host: '192.168.1.2'
+  #port: 8848
+  #namespace: 'dc7c4c11-eff2-4175-a977-50fe4b0ccd7b'
+  #dataid: 'account_json'
+  #group: 'dev'
+
+
+#signing_key: "go语言"
+#db:
+#  host: "127.0.0.1"
+#  port: 3306
+#  dbName: "happy_account_mic_traning"
+#  userName: "root"
+#  password: "003416nba"
+#redis:
+#  Host: "127.0.0.1"
+#  Port: 6379
+#consul:
+#  Host: "192.168.1.2"
+#  Port: 8500
+#account_srv:
+#  srvName: "account_srv"
+#  Host: "192.168.1.2"
+#  Port: 9095
+#  Tags:
+#    - happy
+#    - account_srv
+#account_web:
+#  srvName: "account_web"
+#  Host: "192.168.1.2"
+#  Port: 8081
+#  Tags:
+#    - happy
+#    - account_web
