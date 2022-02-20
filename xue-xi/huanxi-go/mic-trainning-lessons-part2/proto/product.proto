@@ -137,6 +137,8 @@ message CategoriesRes{
 message CategoryItemRes {
   int32 id = 1;
   string name = 2;
+  int32 parentCategoryId = 3;
+  int32 level = 4;
 }
 
 

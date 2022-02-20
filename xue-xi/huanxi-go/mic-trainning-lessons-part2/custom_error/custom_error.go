@@ -6,4 +6,8 @@ var (
 	BrandNotExits = "品牌不存在"
 
 	AdvertiseNotExits = "广告不存在"
+
+	CategoryNotExits = "分类不存在"
+
+	MarshalFails = "序列化失败"
 )
