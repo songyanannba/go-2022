@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/biz/category_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/algorithm/2022/04/大数加法.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/custom_error/custom_error.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/custom_error/custom_error.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/algorithm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/algorithm/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/biz/category.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/biz/category.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/proto/pb/product.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/proto/product.proto" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/proto/product.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/biz/category_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/biz/category_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_web" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestProductServer_CreateCategory in mic-training-lessons-part2/product_srv/biz">
+  <component name="RunManager" selected="Go Test.TestProductServer_GetSubCategory in mic-training-lessons-part2/product_srv/biz">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2" />
@@ -92,7 +91,7 @@
       <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestProductServer_AdvertiseList in mic-training-lessons-part2/product_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestProductServer_DeleteCategory in mic-training-lessons-part2/product_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/biz" />
       <root_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2" />
@@ -101,10 +100,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestProductServer_AdvertiseList\E$" />
+      <pattern value="^\QTestProductServer_DeleteCategory\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestProductServer_CreateCategory in mic-training-lessons-part2/product_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestProductServer_GetAllCategoryList in mic-training-lessons-part2/product_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/biz" />
       <root_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2" />
@@ -113,10 +112,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestProductServer_CreateCategory\E$" />
+      <pattern value="^\QTestProductServer_GetAllCategoryList\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestProductServer_DeleteAdvertise in mic-training-lessons-part2/product_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestProductServer_GetSubCategory in mic-training-lessons-part2/product_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/biz" />
       <root_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2" />
@@ -125,10 +124,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestProductServer_DeleteAdvertise\E$" />
+      <pattern value="^\QTestProductServer_GetSubCategory\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestProductServer_UpdateAdvertise in mic-training-lessons-part2/product_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestProductServer_UpdateCategory in mic-training-lessons-part2/product_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/biz" />
       <root_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2" />
@@ -137,16 +136,16 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestProductServer_UpdateAdvertise\E$" />
+      <pattern value="^\QTestProductServer_UpdateCategory\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestProductServer_CreateCategory in mic-training-lessons-part2/product_srv/biz" />
+        <item itemvalue="Go Test.TestProductServer_GetSubCategory in mic-training-lessons-part2/product_srv/biz" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Test.TestProductServer_UpdateAdvertise in mic-training-lessons-part2/product_srv/biz" />
-        <item itemvalue="Go Test.TestProductServer_DeleteAdvertise in mic-training-lessons-part2/product_srv/biz" />
-        <item itemvalue="Go Test.TestProductServer_AdvertiseList in mic-training-lessons-part2/product_srv/biz" />
+        <item itemvalue="Go Test.TestProductServer_GetAllCategoryList in mic-training-lessons-part2/product_srv/biz" />
+        <item itemvalue="Go Test.TestProductServer_UpdateCategory in mic-training-lessons-part2/product_srv/biz" />
+        <item itemvalue="Go Test.TestProductServer_DeleteCategory in mic-training-lessons-part2/product_srv/biz" />
       </list>
     </recent_temporary>
   </component>

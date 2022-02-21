@@ -29,16 +29,17 @@ func (p ProductServer) GetAllCategoryList(ctx context.Context, empty *emptypb.Em
 	internal.DB.Where(&model.Category{Level: 1}).Preload("SubCategory.SubCategory").Find(&categoryList)
 
 	var res pb.CategoriesRes
-	var items []*pb.CategoryItemRes
+
+	/*var items []*pb.CategoryItemRes
 	for _, item := range categoryList {
 		items = append(items, ConvertCategoryModel2Pb(item))
-	}
+	}*/
 
-	b, err := json.Marshal(items)
+	b, err := json.Marshal(categoryList)
 	if err != nil {
 		return nil, errors.New(custom_error.MarshalFails)
 	}
-	res.InfoResList = items
+	//res.InfoResList = items
 	res.CategoryJsonFormat = string(b)
 
 	return &res, nil
