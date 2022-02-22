@@ -33,16 +33,18 @@ service ProductService {
 
   //品牌分类
   rpc CategoryBrandList(PagingReq) returns (CategoryBrandListRes);
-  rpc GetCategoryBrandList(CategoryItemReq) returns (BrandItemRes);
+  rpc GetCategoryBrandList(CategoryItemReq) returns (BrandRes);
   rpc CreateCategoryBrand (CategoryBrandReq) returns (CategoryBrandRes);
   rpc DeleteCategoryBrand (CategoryBrandReq) returns (google.protobuf.Empty);
   rpc UpdateCategoryBrand (CategoryBrandReq) returns (google.protobuf.Empty);
 
 }
 message CategoryBrandReq {
-  int32 id = 1;
-  BrandItemRes brand = 2;
-  CategoryItemRes category = 3;
+  int32 Id = 1;
+  int32 CategoryId = 2;
+  int32 BrandId = 3;
+  BrandItemRes brand = 4;
+  CategoryItemRes category = 5;
 
 }
 

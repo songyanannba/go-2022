@@ -10,4 +10,8 @@ var (
 	CategoryNotExits = "分类不存在"
 
 	MarshalFails = "序列化失败"
+
+	DelProductCategoryBrandFail = "删除分类品牌失败"
+
+	CategoryNotExist = "分类不存在"
 )

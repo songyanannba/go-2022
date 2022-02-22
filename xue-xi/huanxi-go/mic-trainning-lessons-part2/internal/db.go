@@ -56,7 +56,7 @@ func InitDB() {
 	}
 	fmt.Println("conn suc ...")
 	//err = DB.AutoMigrate(&model.Product{},&model.Category{},&model.Brand{},&model.Advertise{})
-	err = DB.AutoMigrate(&model.Category{}, &model.Brand{}, &model.Advertise{}, &model.Product{})
+	err = DB.AutoMigrate(&model.Category{}, &model.Brand{}, &model.Advertise{}, &model.Product{} ,&model.ProductCategoryBrand{})
 	if err != nil {
 		fmt.Println(err)
 	}
