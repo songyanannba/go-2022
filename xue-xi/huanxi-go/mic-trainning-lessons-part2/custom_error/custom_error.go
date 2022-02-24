@@ -5,6 +5,8 @@ var (
 	DelBrandFail = "删除品牌失败"
 	BrandNotExits = "品牌不存在"
 
+	ProductNotExits = "品牌不存在"
+
 	AdvertiseNotExits = "广告不存在"
 
 	CategoryNotExits = "分类不存在"
@@ -12,6 +14,7 @@ var (
 	MarshalFails = "序列化失败"
 
 	DelProductCategoryBrandFail = "删除分类品牌失败"
+	DelProductFail = "删除产品失败"
 
 	CategoryNotExist = "分类不存在"
 )

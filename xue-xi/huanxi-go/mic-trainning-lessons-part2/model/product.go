@@ -49,7 +49,7 @@ type Product struct {
 	Brand Brand
 
 	Selling  bool `gorm:"default:false"`
-	ShipFree bool `gorm:"default:false"`
+	IsShipFree bool `gorm:"default:false"`
 	IsPop    bool `gorm:"default:false"`
 	IsNew    bool `gorm:"default:false"`
 

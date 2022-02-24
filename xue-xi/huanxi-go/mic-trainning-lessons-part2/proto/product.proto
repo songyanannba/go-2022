@@ -166,6 +166,8 @@ message CreateProductItem {
   int32 brandId = 15;
   int32 favNum = 16;
   int32 soldNum = 17;
+  int32 categoryId = 18;
+  bool isShipFree = 19;
 }
 
 message BatchProductIdReq {
@@ -181,6 +183,7 @@ message ProductConditionReq {
   int32 pageSize = 7;
   string keyWord = 8;
   int32 brandId = 9;
+  int32 PageNo = 10;
 }
 
 message ProductsRes {
@@ -196,10 +199,10 @@ message ProductItemRes {
   string sn = 4;
   int32 stocks = 5;
   int32 favNum = 7;
-  int32 price = 8;
-  int32 realPrice = 9;
+  float price = 8;
+  float realPrice = 9;
   string shortDesc = 10;
-  string desc = 11;
+  BrandItemRes brand = 11;
   repeated string images = 12;
   repeated string descImages = 13;
   string caverImage = 14;
@@ -208,6 +211,5 @@ message ProductItemRes {
   bool selling = 17;
   int64 addTime = 18;
   CategoryItemRes category = 19;
-  BrandItemRes brand = 20;
 
 }
