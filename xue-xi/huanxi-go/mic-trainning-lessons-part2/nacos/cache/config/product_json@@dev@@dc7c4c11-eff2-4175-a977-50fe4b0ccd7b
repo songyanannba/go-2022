@@ -1,17 +1,17 @@
 {
 	"debug": false,
 	"appName": "product_web",
-	"serverHost": "192.168.1.2",
-	"serverPort": 8081,
+	"serverHost": "192.168.1.5",
+	"serverPort": 8082,
 	"product_srv": {
 		"srvName": "product_srv",
-		"Host": "192.168.1.2",
+		"Host": "192.168.1.5",
 		"Port": 9096,
 		"Tags": ["happy", "product_srv"]
 	},
 	"product_web": {
 		"srvName": "product_web",
-		"Host": "192.168.1.2",
+		"Host": "192.168.1.5",
 		"Port": 8082,
 		"Tags": ["happy", "product_web"]
 	},
@@ -27,7 +27,7 @@
 		"Port": 6379
 	},
 	"consul": {
-		"Host": "192.168.1.2",
+		"Host": "192.168.1.5",
 		"Port": 8500
 	},
 	"jwt": {

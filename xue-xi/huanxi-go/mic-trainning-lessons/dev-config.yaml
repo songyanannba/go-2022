@@ -33,10 +33,10 @@ group: 'dev'
 #  Tags:
 #    - happy
 #    - account_srv
-#account_web:
-#  srvName: "account_web"
+#product_web:
+#  srvName: "product_web"
 #  Host: "192.168.1.4"
 #  Port: 8081
 #  Tags:
 #    - happy
-#    - account_web
+#    - product_web

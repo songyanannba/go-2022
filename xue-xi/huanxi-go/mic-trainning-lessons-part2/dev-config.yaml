@@ -1,4 +1,4 @@
-host: '192.168.1.2'
+host: '192.168.1.5'
 port: 8848
 namespace: 'dc7c4c11-eff2-4175-a977-50fe4b0ccd7b'
 dataid: 'product_json'
@@ -33,10 +33,10 @@ group: 'dev'
 #  Tags:
 #    - happy
 #    - account_srv
-#account_web:
-#  srvName: "account_web"
+#product_web:
+#  srvName: "product_web"
 #  Host: "192.168.1.2"
 #  Port: 8081
 #  Tags:
 #    - happy
-#    - account_web
+#    - product_web

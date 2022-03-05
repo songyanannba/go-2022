@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/biz/product_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_web/hander/health.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_web/hander/product.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_web/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_web/middleware/cross_domin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_web/middleware/jwt_middleware.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/custom_error/custom_error.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/custom_error/custom_error.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/model/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/model/product.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/biz/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/biz/product.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/proto/pb/product.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/proto/product.proto" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/proto/product.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/dev-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/dev-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/internal/consul.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/internal/consul.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/nacos/cache/config/product_json@@dev@@dc7c4c11-eff2-4175-a977-50fe4b0ccd7b" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/nacos/cache/config/product_json@@dev@@dc7c4c11-eff2-4175-a977-50fe4b0ccd7b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/nacos/log/nacos-sdk.log" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/nacos/log/nacos-sdk.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/pro-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/pro-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/dev-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/dev-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/internal/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/internal/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/internal/consul.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/internal/consul.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/internal/viper_config.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/internal/viper_config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/pro-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/pro-config.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,13 +96,22 @@
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons/account_web" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestProductServer_BatchGetProduct in mic-training-lessons-part2/product_srv/biz">
+  <component name="RunManager" selected="Go Build.go build mic-training-lessons-part2/product_web">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build mic-training-lessons-part2/product_web" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2" />
+      <kind value="PACKAGE" />
+      <package value="mic-training-lessons-part2/product_web" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_web/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="TestProductServer_BatchGetProduct in mic-training-lessons-part2/product_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -105,7 +126,7 @@
       <pattern value="^\QTestProductServer_BatchGetProduct\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestProductServer_CreateProduct in mic-training-lessons-part2/product_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestProductServer_ProductList in mic-training-lessons-part2/product_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/biz" />
       <root_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2" />
@@ -114,19 +135,7 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestProductServer_CreateProduct\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestProductServer_DeleteProduct in mic-training-lessons-part2/product_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/product_srv/biz" />
-      <root_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2" />
-      <kind value="PACKAGE" />
-      <package value="mic-training-lessons-part2/product_srv/biz" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestProductServer_DeleteProduct\E$" />
+      <pattern value="^\QTestProductServer_ProductList\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestProductServer_UpdateProduct in mic-training-lessons-part2/product_srv/biz" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -143,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build mic-training-lessons-part2/product_web" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.TestProductServer_ProductList in mic-training-lessons-part2/product_srv/biz" />
         <item itemvalue="Go Test.TestProductServer_BatchGetProduct in mic-training-lessons-part2/product_srv/biz" />
         <item itemvalue="Go Test.TestProductServer_UpdateProduct in mic-training-lessons-part2/product_srv/biz" />
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Test.TestProductServer_DeleteProduct in mic-training-lessons-part2/product_srv/biz" />
-        <item itemvalue="Go Test.TestProductServer_CreateProduct in mic-training-lessons-part2/product_srv/biz" />
       </list>
     </recent_temporary>
   </component>

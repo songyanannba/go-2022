@@ -85,7 +85,7 @@ func init() {
 	RedisConfig      RedisConfig      `mapstructure:"redis"`
 	ConsulConfig     ConsulConfig     `mapstructure:"consul"`
 	AccountSrvConfig AccountSrvConfig `mapstructure:"account_srv"`
-	AccountWebConfig AccountWebConfig `mapstructure:"account_web"`
+	AccountWebConfig AccountWebConfig `mapstructure:"product_web"`
 	NacosConfig      NacosConfig      `mapstructure:"nacos"`
 }*/
 

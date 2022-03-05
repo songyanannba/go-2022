@@ -1,7 +1,7 @@
-host: '192.168.1.2'
+host: '192.168.1.5'
 port: 8848
 namespace: '2679aaba-50f1-410d-be50-9aa92aa9aad1'
-dataid: 'account_json'
+dataid: 'product_json'
 group: 'pro'
 
 #nacos:
@@ -32,10 +32,10 @@ group: 'pro'
 #  Tags:
 #    - happy
 #    - account_srv
-#account_web:
-#  srvName: "account_web"
+#product_web:
+#  srvName: "product_web"
 #  Host: "192.168.1.2"
 #  Port: 8081
 #  Tags:
 #    - happy
-#   - account_web
+#   - product_web
