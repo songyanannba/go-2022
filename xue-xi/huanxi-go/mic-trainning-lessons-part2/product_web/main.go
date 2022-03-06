@@ -3,21 +3,33 @@ package main
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"mic-training-lessons-part2/product_web/hander"
-
+	"github.com/google/uuid"
 	"mic-training-lessons-part2/internal"
+	"mic-training-lessons-part2/internal/register"
+	"mic-training-lessons-part2/product_web/hander"
+	"mic-training-lessons-part2/util"
+)
+
+var (
+	consulRegistry register.ConsulRegistry
+	randomId       string
 )
 
 func init() {
-	err := internal.Reg(
-		internal.AppConf.ProductWebConfig.Host,
-		internal.AppConf.ProductWebConfig.SrvName,
-		internal.AppConf.ProductWebConfig.SrvName,
+
+	randomPort := util.GenRandomPort()
+	if !internal.AppConf.Debug {
+		internal.AppConf.ProductWebConfig.Port = randomPort
+	}
+
+	randomId := uuid.New().String()
+	consulRegistry := register.NewConsulRegistry(internal.AppConf.ProductWebConfig.Host,
+		internal.AppConf.ProductWebConfig.Port)
+
+	consulRegistry.Register(internal.AppConf.ProductWebConfig.SrvName, randomId,
 		internal.AppConf.ProductWebConfig.Port,
 		internal.AppConf.ProductWebConfig.Tags)
-	if err != nil {
-		panic(err)
-	}
+
 	fmt.Println("internal.Reg...")
 }
 
