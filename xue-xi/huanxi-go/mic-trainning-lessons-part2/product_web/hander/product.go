@@ -164,3 +164,49 @@ func ConvertProductReq2Pb(productReq req.ProductReq) *pb.CreateProductItem {
 	}
 	return &item
 }
+
+func DetailHandler(c *gin.Context) {
+	idStr := c.Param("id")
+	id, err := strconv.Atoi(idStr)
+	if err != nil {
+		c.JSON(http.StatusOK, gin.H{
+			"mag": custom_error.ParamError,
+		})
+	}
+
+	detail, err := productClient.GetProductDetail(context.Background(), &pb.ProductItemRes{Id: int32(id)})
+	if err != nil {
+		c.JSON(http.StatusOK, gin.H{
+			"mag": custom_error.GetProductDetailError,
+		})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{
+		"mag":  "",
+		"data": detail,
+	})
+}
+
+func DeleteHandler(c *gin.Context) {
+	idStr := c.Param("id")
+	id, err := strconv.Atoi(idStr)
+	if err != nil {
+		c.JSON(http.StatusOK, gin.H{
+			"mag": custom_error.ParamError,
+		})
+	}
+
+	product, err := productClient.DeleteProduct(context.Background(), &pb.ProductDelItem{Id: int32(id)})
+	if err != nil {
+		c.JSON(http.StatusOK, gin.H{
+			"mag": custom_error.DeleteProductError,
+		})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{
+		"mag":  "",
+		"data": product,
+	})
+}
