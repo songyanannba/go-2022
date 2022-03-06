@@ -17,4 +17,6 @@ var (
 	DelProductFail = "删除产品失败"
 
 	CategoryNotExist = "分类不存在"
+
+	ParamError = "参数错误"
 )
