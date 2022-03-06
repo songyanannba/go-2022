@@ -19,4 +19,5 @@ var (
 	CategoryNotExist = "分类不存在"
 
 	ParamError = "参数错误"
+	CreateProductError = "添加产品错误"
 )

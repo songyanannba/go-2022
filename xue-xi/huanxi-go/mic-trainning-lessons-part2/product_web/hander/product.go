@@ -8,6 +8,7 @@ import (
 	"google.golang.org/grpc"
 	"mic-training-lessons-part2/custom_error"
 	"mic-training-lessons-part2/internal"
+	"mic-training-lessons-part2/product_web/req"
 	"mic-training-lessons-part2/proto/pb"
 	"net/http"
 	"strconv"
@@ -16,7 +17,7 @@ import (
 var productClient pb.ProductServiceClient
 
 func init() {
-	addr := fmt.Sprintf("%s:%d" , internal.AppConf.ProductSrvConfig.Host , internal.AppConf.ProductSrvConfig.Port)
+	addr := fmt.Sprintf("%s:%d", internal.AppConf.ProductSrvConfig.Host, internal.AppConf.ProductSrvConfig.Port)
 	conn, err := grpc.Dial(
 		addr,
 		grpc.WithInsecure(),
@@ -48,68 +49,118 @@ func ProductListHandler(c *gin.Context) {
 	condition.MinPrice = int32(minPrice)
 	condition.MaxPrice = int32(maxPrice)
 
-	categoryIdStr :=  c.DefaultQuery("categoryId" , "0")
-	categoryId ,err := strconv.Atoi(categoryIdStr)
+	categoryIdStr := c.DefaultQuery("categoryId", "0")
+	categoryId, err := strconv.Atoi(categoryIdStr)
 	if err != nil {
-		c.JSON(http.StatusOK , gin.H {
-			"msg" : custom_error.ParamError,
+		c.JSON(http.StatusOK, gin.H{
+			"msg": custom_error.ParamError,
 		})
 	}
 	condition.CategoryId = int32(categoryId)
 
-	brandStr := c.DefaultQuery("brandId" , "0")
+	brandStr := c.DefaultQuery("brandId", "0")
 	brandId, err := strconv.Atoi(brandStr)
 	if err != nil {
-		c.JSON(http.StatusOK , gin.H {
-			"msg" : custom_error.ParamError,
+		c.JSON(http.StatusOK, gin.H{
+			"msg": custom_error.ParamError,
 		})
 	}
 	condition.BrandId = int32(brandId)
 
-	isPop := c.DefaultQuery("isPop" , "0")
+	isPop := c.DefaultQuery("isPop", "0")
 	if isPop == "1" {
 		condition.IsPop = true
 	}
 
-	isNew := c.DefaultQuery("isNew" , "0")
+	isNew := c.DefaultQuery("isNew", "0")
 	if isNew == "1" {
 		condition.IsNew = true
 	}
 
-	pageNoStr := c.DefaultQuery("pageNo" , "0")
-	pageNo ,err := strconv.Atoi(pageNoStr)
+	pageNoStr := c.DefaultQuery("pageNo", "0")
+	pageNo, err := strconv.Atoi(pageNoStr)
 	if err != nil {
-		c.JSON(http.StatusOK , gin.H {
-			"msg" : custom_error.ParamError,
+		c.JSON(http.StatusOK, gin.H{
+			"msg": custom_error.ParamError,
 		})
 	}
 	condition.PageNo = int32(pageNo)
 
-	pageSizeStr := c.DefaultQuery("pageSize" , "0")
-	pageSize ,err := strconv.Atoi(pageSizeStr)
+	pageSizeStr := c.DefaultQuery("pageSize", "0")
+	pageSize, err := strconv.Atoi(pageSizeStr)
 	if err != nil {
-		c.JSON(http.StatusOK , gin.H {
-			"msg" : custom_error.ParamError,
+		c.JSON(http.StatusOK, gin.H{
+			"msg": custom_error.ParamError,
 		})
 		return
 	}
 	condition.PageSize = int32(pageSize)
 
-	keyword := c.DefaultQuery("keyword" , "")
+	keyword := c.DefaultQuery("keyword", "")
 	condition.KeyWord = keyword
 
 	list, err := productClient.ProductList(context.Background(), &condition)
 	if err != nil {
 		zap.S().Error(err)
-		c.JSON(http.StatusOK , gin.H {
-			"msg" : custom_error.ParamError,
+		c.JSON(http.StatusOK, gin.H{
+			"msg": custom_error.ParamError,
 		})
 		return
 	}
 
 	c.JSON(http.StatusOK, gin.H{
-		"msg": "",
-		"total" : list.Total,
-		"data" : list.ItemList,
+		"msg":   "",
+		"total": list.Total,
+		"data":  list.ItemList,
 	})
+}
+
+func AddHandler(c *gin.Context) {
+	var productReq req.ProductReq
+	err := c.ShouldBindJSON(productReq)
+	if err != nil {
+		c.JSON(http.StatusOK, gin.H{
+			"msg": custom_error.ParamError,
+		})
+		return
+	}
+
+	req2Pb := ConvertProductReq2Pb(productReq)
+	product, err := productClient.CreateProduct(context.Background(), req2Pb)
+	if err != nil {
+		c.JSON(http.StatusOK, gin.H{
+			"msg": custom_error.CreateProductError,
+		})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{
+		"mag":  "",
+		"data": product,
+	})
+}
+
+func ConvertProductReq2Pb(productReq req.ProductReq) *pb.CreateProductItem {
+	item := pb.CreateProductItem{
+		Id:          productReq.Id,
+		Name:        productReq.Name,
+		Sn:          productReq.SN,
+		Stocks:      productReq.Stocks,
+		Price:       productReq.Price,
+		RealPrice:   productReq.RealPrice,
+		ShortDesc:   productReq.ShorDesc,
+		ProductDesc: productReq.Desc,
+		Images:      productReq.Images,
+		DescImages:  productReq.DescImages,
+		CoverImage:  productReq.CoverImage,
+		IsNew:       productReq.IsNew,
+		IsPop:       productReq.IsPop,
+		Selling:     productReq.Selling,
+		BrandId:     productReq.BrandId,
+		FavNum:      productReq.FavNum,
+		SoldNum:     productReq.SoldNum,
+		CategoryId:  productReq.CategoryId,
+		IsShipFree:  productReq.Selling,
+	}
+	return &item
 }
