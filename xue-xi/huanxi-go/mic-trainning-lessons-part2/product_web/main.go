@@ -32,9 +32,10 @@ func main() {
 	productGroup := r.Group("/v1/product")
 	{
 		productGroup.GET("/list", hander.ProductListHandler)
-		productGroup.GET("/add", hander.AddHandler)
-		productGroup.GET("/getDetail", hander.DetailHandler)
-		productGroup.GET("/delete", hander.DeleteHandler)
+		productGroup.POST("/add", hander.AddHandler)
+		productGroup.POST("/Update", hander.UpdateHandler)
+		productGroup.GET("/detail/:id", hander.DetailHandler)
+		productGroup.GET("/delete/:id", hander.DeleteHandler)
 	}
 
 	r.GET("/health", hander.HealthHandler)

@@ -210,3 +210,31 @@ func DeleteHandler(c *gin.Context) {
 		"data": product,
 	})
 }
+
+func UpdateHandler(c *gin.Context) {
+
+	var productReq req.ProductReq
+	err := c.ShouldBindJSON(productReq)
+	if err != nil {
+		c.JSON(http.StatusOK, gin.H{
+			"msg": custom_error.ParamError,
+		})
+		return
+	}
+
+	req2Pb := ConvertProductReq2Pb(productReq)
+	product, err := productClient.UpdateProduct(context.Background(), req2Pb)
+
+	if err != nil {
+		c.JSON(http.StatusOK, gin.H{
+			"msg": custom_error.UpdateProductError,
+		})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{
+		"mag":  "",
+		"data": product,
+	})
+
+}

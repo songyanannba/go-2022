@@ -21,6 +21,7 @@ var (
 	ParamError = "参数错误"
 
 	CreateProductError = "添加产品错误"
+	UpdateProductError = "更新产品错误"
 	GetProductDetailError = "获取产品错误"
 	DeleteProductError = "删除产品错误"
 )
