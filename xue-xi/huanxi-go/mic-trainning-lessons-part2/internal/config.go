@@ -19,7 +19,7 @@ type AppConfig struct {
 	DBConfig         DBConfig         `mapstructure:"db" json:"db"`
 	RedisConfig      RedisConfig      `mapstructure:"redis" json:"redis"`
 	ConsulConfig     ConsulConfig     `mapstructure:"consul" json:"consul"`
-	ProductSrvConfig ProductSrvConfig `mapstructure:"product_srv" json:"product_srv"`
+	ProductSrvConfig ProductSrvConfig `mapstructure:"stock_srv" json:"stock_srv"`
 	ProductWebConfig ProductWebConfig `mapstructure:"product_web" json:"product_web"`
 	JWTConfig JWTConfig `mapstructure:"jwt" json:"jwt"`
 	Debug bool `mapstructure:"debug" json:"debug"`
