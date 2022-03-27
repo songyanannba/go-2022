@@ -20,6 +20,6 @@ type AppConfig struct {
 	RedisConfig      RedisConfig      `mapstructure:"redis" json:"redis"`
 	ConsulConfig     ConsulConfig     `mapstructure:"consul" json:"consul"`
 	AccountSrvConfig AccountSrvConfig `mapstructure:"account_srv" json:"account_srv"`
-	AccountWebConfig AccountWebConfig `mapstructure:"product_web" json:"product_web"`
+	AccountWebConfig AccountWebConfig `mapstructure:"cartorder_web" json:"cartorder_web"`
 	JWTConfig JWTConfig `mapstructure:"jwt" json:"jwt"`
 }

@@ -32,10 +32,10 @@ group: 'pro'
 #  Tags:
 #    - happy
 #    - account_srv
-#product_web:
-#  srvName: "product_web"
+#cartorder_web:
+#  srvName: "cartorder_web"
 #  Host: "192.168.1.2"
 #  Port: 8081
 #  Tags:
 #    - happy
-#   - product_web
+#   - cartorder_web

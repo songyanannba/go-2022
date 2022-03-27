@@ -67,7 +67,7 @@ func FilterService() error {
 	if err != nil {
 		return err
 	}
-	serviceList, err := client.Agent().ServicesWithFilter("Service==product_web")
+	serviceList, err := client.Agent().ServicesWithFilter("Service==cartorder_web")
 	if err != nil {
 		return err
 	}
