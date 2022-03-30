@@ -11,6 +11,11 @@ import (
 )
 
 type ShopCartService struct {
+
+}
+
+type CartOrderService struct {
+
 }
 
 func (s ShopCartService) ShopCartItemList(ctx context.Context, req *pb.AccountReq) (*pb.CartItemListRes, error) {

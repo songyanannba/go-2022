@@ -4,11 +4,13 @@ import (
 	"context"
 	"fmt"
 	"github.com/gin-gonic/gin"
+	"github.com/opentracing/opentracing-go"
 	"google.golang.org/grpc"
 	"mic-trainning-lessons-part4/cartorder_web/req"
 	"mic-trainning-lessons-part4/custom_error"
 	"mic-trainning-lessons-part4/internal"
 	"mic-trainning-lessons-part4/proto/pb"
+	"mic-trainning-lessons-part4/util/otgrpc"
 	"net/http"
 	"strconv"
 )
@@ -20,7 +22,9 @@ func init() {
 	conn, err := grpc.Dial(
 		addr,
 		grpc.WithInsecure(),
-		grpc.WithDefaultServiceConfig(`{"loadBalancingPolicy":"round_robin"}`))
+		grpc.WithDefaultServiceConfig(`{"loadBalancingPolicy":"round_robin"}`),
+		grpc.WithUnaryInterceptor(otgrpc.OpenTracingClientInterceptor(opentracing.GlobalTracer())),
+	)
 
 	if err != nil {
 		panic(err)

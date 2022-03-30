@@ -6,6 +6,7 @@ import (
 	"github.com/google/uuid"
 	"go.uber.org/zap"
 	"mic-trainning-lessons-part4/cartorder_web/hander"
+	"mic-trainning-lessons-part4/cartorder_web/middleware"
 	"mic-trainning-lessons-part4/internal"
 	"mic-trainning-lessons-part4/internal/register"
 	"mic-trainning-lessons-part4/util"
@@ -46,12 +47,20 @@ func main() {
 
 	fmt.Println(addr)
 	r := gin.Default()
-	productGroup := r.Group("/v1/cart")
+	cartGroup := r.Group("/v1/cart").Use(middleware.Tracing())
 	{
-		productGroup.GET("/list", hander.ShopCartListHandler)
-		productGroup.POST("/add", hander.AddHandler)
-		productGroup.POST("/Update", hander.UpdateHandler)
-		productGroup.GET("/delete/:id", hander.DeleteHandler)
+		cartGroup.GET("/list", hander.ShopCartListHandler)
+		cartGroup.POST("/add", hander.AddHandler)
+		cartGroup.POST("/Update", hander.UpdateHandler)
+		cartGroup.GET("/delete/:id", hander.DeleteHandler)
+	}
+
+	orderGroup := r.Group("/v1/order").Use(middleware.Tracing())
+	{
+		orderGroup.GET("", hander.OrderListHandler)
+		orderGroup.GET("/:id", hander.DetailOrder)
+		orderGroup.POST("/add", hander.AddOrder)
+
 	}
 
 	r.GET("/health", hander.HealthHandler)

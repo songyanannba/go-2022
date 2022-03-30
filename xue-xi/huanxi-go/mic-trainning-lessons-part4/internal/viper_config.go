@@ -7,10 +7,14 @@ import (
 	"github.com/nacos-group/nacos-sdk-go/common/constant"
 	"github.com/nacos-group/nacos-sdk-go/vo"
 	"github.com/spf13/viper"
+	"mic-trainning-lessons-part4/proto/pb"
 )
 
 var AppConf AppConfig
 var NacosConf NacosConfig
+var OrderClient pb.OrderServiceClient
+var ProductClient pb.ProductServiceClient
+var StockClient pb.StockServiceClient
 
 var fileName = "/Users/songyanan/GolandProjects/go-2022/xue-xi/huanxi-go/mic-trainning-lessons-part3/dev-config.yaml"
 
