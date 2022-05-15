@@ -1,4 +1,4 @@
-host: '192.168.1.5'
+host: '192.168.1.4'
 port: 8848
 namespace: 'dc7c4c11-eff2-4175-a977-50fe4b0ccd7b'
 dataid: 'product_json'
