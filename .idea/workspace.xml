@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/05/24/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/06/06/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/sentinel/flow/mian.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/sentinel/test1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/sentinel/warm-up-demo/mian.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/algorithm/2022/07/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/algorithm/2022/07/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,16 +63,16 @@
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/sentinel/warm-up-demo" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/sentinel/warm-up-demo" />
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/util" />
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/proto" />
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go" />
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4" />
-      <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/cartorder_web/middleware" />
@@ -76,60 +82,57 @@
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/13/model" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-zhishi/2022/05/24/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/algorithm/2022/06/main.go" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-zhishi/2022/06/06/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/algorithm/2022/07/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build mic-trainning-lessons-part4/rocketmq" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build mic-trainning-lessons-part4/sentinel/flow" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4" />
       <kind value="PACKAGE" />
-      <package value="mic-trainning-lessons-part4/rocketmq" />
+      <package value="mic-trainning-lessons-part4/sentinel/flow" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/rocketmq/main.go" />
+      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/sentinel/flow/mian.go" />
       <method v="2" />
     </configuration>
-    <configuration name="rocketmq: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="xue-xi/huanxi-go/mic-trainning-lessons-part4/rocketmq/docker-compose.yml" />
-        </settings>
-      </deployment>
+    <configuration name="go build mic-trainning-lessons-part4/sentinel/test1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4" />
+      <kind value="PACKAGE" />
+      <package value="mic-trainning-lessons-part4/sentinel/test1" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/sentinel/test1/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="rocketmq.rmqnamesrv: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="rmqnamesrv" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="xue-xi/huanxi-go/mic-trainning-lessons-part4/rocketmq/docker-compose.yml" />
-        </settings>
-      </deployment>
+    <configuration name="go build mic-trainning-lessons-part4/sentinel/warm-up-demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4" />
+      <kind value="PACKAGE" />
+      <package value="mic-trainning-lessons-part4/sentinel/warm-up-demo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/sentinel/warm-up-demo/mian.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build mic-trainning-lessons-part4/rocketmq" />
-        <item itemvalue="Docker.rocketmq.rmqnamesrv: Compose Deployment" />
-        <item itemvalue="Docker.rocketmq: Compose Deployment" />
         <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build mic-trainning-lessons-part4/sentinel/flow" />
+        <item itemvalue="Go Build.go build mic-trainning-lessons-part4/sentinel/warm-up-demo" />
+        <item itemvalue="Go Build.go build mic-trainning-lessons-part4/sentinel/test1" />
       </list>
     </recent_temporary>
   </component>
