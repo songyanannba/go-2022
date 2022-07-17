@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/05/24/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/06/06/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/sentinel/flow/mian.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/sentinel/test1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/sentinel/warm-up-demo/mian.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.1/Client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.1/Service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.2/Client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.2/Service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/zifare/iService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/zifare/iconnection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/connection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/service.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/06/06/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/06/06/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/sentinel/warm-up-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.2" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
@@ -82,7 +84,16 @@
       <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-basic-lessons/week4/13/model" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
+  <component name="RunManager" selected="Go Build.go build bili-zinx/myDemo/Zinx0.1">
+    <configuration name="go build bili-zinx/myDemo/Zinx0.1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx" />
+      <kind value="PACKAGE" />
+      <package value="bili-zinx/myDemo/Zinx0.1" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.1/Service.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$" />
@@ -108,15 +119,6 @@
       <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/sentinel/flow/mian.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build mic-trainning-lessons-part4/sentinel/test1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4" />
-      <kind value="PACKAGE" />
-      <package value="mic-trainning-lessons-part4/sentinel/test1" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/sentinel/test1/main.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build mic-trainning-lessons-part4/sentinel/warm-up-demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4" />
@@ -128,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build bili-zinx/myDemo/Zinx0.1" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build mic-trainning-lessons-part4/sentinel/flow" />
         <item itemvalue="Go Build.go build mic-trainning-lessons-part4/sentinel/warm-up-demo" />
-        <item itemvalue="Go Build.go build mic-trainning-lessons-part4/sentinel/test1" />
       </list>
     </recent_temporary>
   </component>

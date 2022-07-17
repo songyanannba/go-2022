@@ -7,7 +7,20 @@ import (
 	"strings"
 )
 
+
+
+
 func main() {
+	scanner := bufio.NewScanner(os.Stdin)
+	for scanner.Scan() {
+		fmt.Println(scanner.Text())
+	}
+	if err:= scanner.Err() ; err != nil {
+		fmt.Fprintln(os.Stderr , "readig standard input:" , err)
+	}
+}
+
+func main1() {
 	const input = "1,2,3,4,"
 
 	scanner := bufio.NewScanner(strings.NewReader(input))
