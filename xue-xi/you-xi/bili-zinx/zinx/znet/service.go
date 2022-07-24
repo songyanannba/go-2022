@@ -1,8 +1,8 @@
 package znet
 
 import (
+	"bili-zinx/utils"
 	"bili-zinx/zinx/zifare"
-	"errors"
 	"fmt"
 	"net"
 )
@@ -16,11 +16,14 @@ type Service struct {
 	IP string
 	//服务器监听的端口
 	Port int
+	//当前的server 添加一个router
+	Router zifare.IRouter
 }
 
 
 
 func (s *Service) Start() {
+	fmt.Println("[start] name is " ,utils.GlobalObject.Name )
 	fmt.Printf("[start] Service Listenner at IP :%s ,Port %d is starting \n" ,s.IP ,s.Port)
 
 	go func() {
@@ -53,43 +56,17 @@ func (s *Service) Start() {
 				continue
 			}
 
-			dealConn := NewConnection(conn, cid, CallBackToClient)
+			dealConn := NewConnection(conn, cid, s.Router)
 			cid++
+
 			go dealConn.Start()
-			//原生
-			/*go func() {
-				for  {
-					buf := make([]byte ,512)
-					cnt, err := conn.Read(buf)
-					if err != nil {
-						fmt.Println("recv read err " ,err)
-						continue
-					}
-
-					fmt.Printf("recv client buf %s ,cnt %d\n" , buf ,cnt)
-					//回显
-					if _, err := conn.Write(buf[0:cnt]) ; err != nil {
-						fmt.Println("write back buf err " , err)
-						continue
-					}
-				}
-
-			}()*/
 
 		}
 	}()
 
 }
 
-//定义客户端绑定的api
-func CallBackToClient( conn *net.TCPConn , data []byte , cnt int) error {
-	fmt.Println("call back client...")
-	if _, err := conn.Write(data[:cnt]) ; err != nil {
-		fmt.Println("write back buf err" , err)
-		return errors.New("CallBackToClient err")
-	}
-	return nil
-}
+
 
 func (s *Service)Stop() {
 	//将一些服务器状态停止 或者回收
@@ -105,16 +82,23 @@ func (s *Service)Serve() {
 	select {}
 }
 
+func (s *Service)AddRouter(router zifare.IRouter) {
+	//将一些服务器状态停止 或者回收
+	s.Router = router
+	fmt.Println("add router succ...")
+}
+
 /**
 初始化Service的方法
  */
 func NewService (Name string) zifare.IService {
 
 	s := &Service{
-		Name:      "name",
+		Name:      utils.GlobalObject.Name,
 		IPVersion: "tcp4",
-		IP:        "0.0.0.0",
-		Port:      8999,
+		IP:        utils.GlobalObject.Host,
+		Port:      utils.GlobalObject.Port,
+		Router: nil,
 	}
 
 	return s
