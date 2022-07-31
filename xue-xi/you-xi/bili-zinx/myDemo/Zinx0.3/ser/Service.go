@@ -1,7 +1,7 @@
 package main
 
 import (
-	"bili-zinx/zinx/zifare"
+	"bili-zinx/zinx/ziface"
 	"bili-zinx/zinx/znet"
 	"fmt"
 )
@@ -13,7 +13,7 @@ type PingRouter struct {
 
 
 
-func (p *PingRouter) PreHandle(request zifare.IRequest) {
+func (p *PingRouter) PreHandle(request ziface.IRequest) {
 	fmt.Println("call router PreHandler...")
 	_, err := request.GetConnection().GetTCPConnection().Write([]byte("PreHandler ping...\n"))
 	if err != nil {
@@ -21,7 +21,7 @@ func (p *PingRouter) PreHandle(request zifare.IRequest) {
 	}
 }
 
-func (p *PingRouter) Handle(request zifare.IRequest) {
+func (p *PingRouter) Handle(request ziface.IRequest) {
 	fmt.Println("call router Handler...")
 	_, err := request.GetConnection().GetTCPConnection().Write([]byte("Handler ping...\n"))
 	if err != nil {
@@ -29,7 +29,7 @@ func (p *PingRouter) Handle(request zifare.IRequest) {
 	}
 }
 
-func (p *PingRouter) PostHandle(request zifare.IRequest) {
+func (p *PingRouter) PostHandle(request ziface.IRequest) {
 	fmt.Println("call router PostHandler...")
 	_, err := request.GetConnection().GetTCPConnection().Write([]byte("PostHandler ping...\n"))
 	if err != nil {

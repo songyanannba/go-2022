@@ -2,7 +2,7 @@ package znet
 
 import (
 	"bili-zinx/utils"
-	"bili-zinx/zinx/zifare"
+	"bili-zinx/zinx/ziface"
 	"fmt"
 	"net"
 )
@@ -17,13 +17,16 @@ type Service struct {
 	//服务器监听的端口
 	Port int
 	//当前的server 添加一个router
-	Router zifare.IRouter
+	Router ziface.IRouter
 }
 
 
 
 func (s *Service) Start() {
-	fmt.Println("[start] name is " ,utils.GlobalObject.Name )
+	fmt.Println("[Zinx start] name is " ,utils.GlobalObject.Name)
+	fmt.Println("[Zinx start] Listener is " ,utils.GlobalObject.Host ,utils.GlobalObject.Port)
+	fmt.Println("[Zinx start] Version is " ,utils.GlobalObject.Version)
+
 	fmt.Printf("[start] Service Listenner at IP :%s ,Port %d is starting \n" ,s.IP ,s.Port)
 
 	go func() {
@@ -82,7 +85,7 @@ func (s *Service)Serve() {
 	select {}
 }
 
-func (s *Service)AddRouter(router zifare.IRouter) {
+func (s *Service)AddRouter(router ziface.IRouter) {
 	//将一些服务器状态停止 或者回收
 	s.Router = router
 	fmt.Println("add router succ...")
@@ -91,7 +94,7 @@ func (s *Service)AddRouter(router zifare.IRouter) {
 /**
 初始化Service的方法
  */
-func NewService (Name string) zifare.IService {
+func NewService (Name string) ziface.IService {
 
 	s := &Service{
 		Name:      utils.GlobalObject.Name,

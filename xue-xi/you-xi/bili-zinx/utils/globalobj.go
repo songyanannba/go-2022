@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"bili-zinx/zinx/zifare"
+	"bili-zinx/zinx/ziface"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -13,8 +13,8 @@ import (
 */
 
 type GlobalObj struct {
-	TcpServer zifare.IService
-	Host string
+	TcpServer ziface.IService
+	Host      string
 	Port int
 	Name string
 

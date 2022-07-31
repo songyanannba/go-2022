@@ -1,4 +1,4 @@
-package zifare
+package ziface
 
 /**
 	IRequest接口

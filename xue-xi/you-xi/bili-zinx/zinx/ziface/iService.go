@@ -1,4 +1,4 @@
-package zifare
+package ziface
 
 
 //定义一个服务接口

@@ -1,16 +1,16 @@
 package znet
 
-import "bili-zinx/zinx/zifare"
+import "bili-zinx/zinx/ziface"
 
 type Request struct {
 	//和客户端的连接
-	conn zifare.IConnection
+	conn ziface.IConnection
 
 	//客户端的请求数据
 	data []byte
 }
 
-func (r *Request)GetConnection() zifare.IConnection {
+func (r *Request)GetConnection() ziface.IConnection {
 	return r.conn
 }
 
