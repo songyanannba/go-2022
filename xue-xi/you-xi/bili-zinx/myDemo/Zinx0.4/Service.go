@@ -4,6 +4,7 @@ import (
 	"bili-zinx/zinx/zifare"
 	"bili-zinx/zinx/znet"
 	"fmt"
+	"math/rand"
 )
 
 //自定义路由
@@ -32,6 +33,8 @@ func (p *PingRouter) Handle(request zifare.IRequest) {
 
 func (p *PingRouter) PostHandle(request zifare.IRequest) {
 	fmt.Println("call router PostHandler...")
+	fmt.Println(rand.Int())
+	fmt.Println("")
 	_, err := request.GetConnection().GetTCPConnection().Write([]byte("PostHandler ping...\n"))
 	if err != nil {
 		fmt.Println("call back PostHandler ping error")

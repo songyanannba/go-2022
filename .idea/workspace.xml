@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.3/cli/Client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.3/ser/Service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/cli/Client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/ser/Service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/ser/zinx.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/utils/globalobj.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/zifare/irequest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/zifare/irouter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/request.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/zifare/iService.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/zifare/iService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/cli/Client.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/Client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/ser/Service.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/Service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/ser/zinx.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/utils/globalobj.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/utils/globalobj.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/connection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +73,11 @@
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/conf" />
+      <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4" />
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/ser" />
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.3/cli" />
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.3/ser" />
-      <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/cartorder_web/middleware" />
-      <recent name="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/proto" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build bili-zinx/myDemo/Zinx0.3/ser">

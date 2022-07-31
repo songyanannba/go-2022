@@ -60,7 +60,7 @@ func (c *Connection) StartReader() {
 			data: buf,
 		}
 
-		c.Router.PreHandle(&req)
+		//c.Router.PreHandle(&req)
 		//fmt.Println("ssss==" ,string(buf))
 		//调用路由 执行方法
 		go func(request zifare.IRequest) {

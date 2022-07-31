@@ -29,7 +29,8 @@ var GlobalObject *GlobalObj
 
 func (g *GlobalObj)Reload () {
 	dir, _ := os.Getwd()
-	date, err := ioutil.ReadFile(dir+"/zinx.json")
+	fmt.Println("dir==",dir)
+	date, err := ioutil.ReadFile(dir+"/conf/zinx.json")
 	if err != nil {
 		panic(err)
 	}
