@@ -1,9 +1,10 @@
 package znet
 
 import (
-	"bili-zinx/utils"
 	"bili-zinx/zinx/ziface"
+	"errors"
 	"fmt"
+	"io"
 	"net"
 )
 
@@ -47,17 +48,39 @@ func (c *Connection) StartReader() {
 
 	for {
 		//读取客户端的数据到buf中
-		buf := make([]byte, utils.GlobalObject.MaxPackageSize)
-		_, err := c.conn.Read(buf)
-		if err != nil {
-			fmt.Println("reve buf err", err)
-			continue
+
+		//创建 拆包解包对象
+		dp := NewDataPack()
+		headData := make([]byte , dp.GetHeadLen())
+
+		//读取客户端msg head 8个字节
+		if _, err := io.ReadFull(c.GetTCPConnection(), headData) ; err != nil {
+			fmt.Println("read msg head error", err)
+			break
 		}
+
+		msg, err := dp.UnPack(headData)
+		if err != nil {
+			fmt.Println("unpack err" , err)
+			break
+		}
+
+		//拆包 得到msgId msgDataLen 放到msg消息中
+		var data []byte
+		if msg.GetMsgLen() > 0 {
+			data = make([]byte , msg.GetMsgLen())
+			//根据msgLen再次去读 data数据
+			if _, err := io.ReadFull(c.GetTCPConnection(), data) ; err != nil {
+				fmt.Println("read msg data error" , err)
+				break
+			}
+		}
+		msg.SetData(data)
 
 		//当前连接的request
 		req := Request{
 			conn: c,
-			data: buf,
+			msg: msg,
 		}
 
 		//c.Router.PreHandle(&req)
@@ -106,7 +129,29 @@ func (c *Connection) RemoteAddr() net.Addr {
 	return c.conn.RemoteAddr()
 }
 
-func (c *Connection) Send(data []byte) error {
+//提供一个sendMsg方法 ；封包 并发送给客户端
+
+func (c *Connection) SendMsg(msgId uint32 ,data []byte) error {
+
+	if c.isClosed == true {
+		return errors.New("conn close when send msg...")
+	}
+	
+	//封包
+	dp := NewDataPack()
+	
+	message :=NewMessagePack(msgId ,data)
+
+	binaryMsg, err := dp.Pack(message)
+	if err != nil {
+		fmt.Println("msg pack err")
+		return err
+	}
+
+	if _, err := c.conn.Write(binaryMsg) ; err != nil {
+		fmt.Println("write msg err msg id" , msgId , "error:" ,err)
+		return err
+	}
 
 	return nil
 }

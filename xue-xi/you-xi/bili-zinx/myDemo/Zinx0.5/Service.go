@@ -4,7 +4,6 @@ import (
 	"bili-zinx/zinx/ziface"
 	"bili-zinx/zinx/znet"
 	"fmt"
-	"math/rand"
 )
 
 //自定义路由
@@ -15,31 +14,21 @@ type PingRouter struct {
 
 
 
-func (p *PingRouter) PreHandle(request ziface.IRequest) {
-	fmt.Println("call router PreHandler...")
-	_, err := request.GetConnection().GetTCPConnection().Write([]byte("PreHandler ping...\n"))
-	if err != nil {
-		fmt.Println("call back before ping error")
-	}
-}
-
 func (p *PingRouter) Handle(request ziface.IRequest) {
+
 	fmt.Println("call router Handler...")
-	_, err := request.GetConnection().GetTCPConnection().Write([]byte("Handler ping...\n"))
+
+	//先读区客户端数据
+	fmt.Println("recv from client :msgId = ", request.GetMsgID() , ",data ," , string(request.GetData()))
+
+	err := request.GetConnection().SendMsg(1 ,[]byte("ping... ping...ping..."))
+
 	if err != nil {
-		fmt.Println("call back Handler ping error")
+		fmt.Println(err)
 	}
+
 }
 
-func (p *PingRouter) PostHandle(request ziface.IRequest) {
-	fmt.Println("call router PostHandler...")
-	fmt.Println(rand.Int())
-	fmt.Println("")
-	_, err := request.GetConnection().GetTCPConnection().Write([]byte("PostHandler ping...\n"))
-	if err != nil {
-		fmt.Println("call back PostHandler ping error")
-	}
-}
 
 func main() {
 

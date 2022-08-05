@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.5/Client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.5/Service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.5/conf/zinx.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/idataPack.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/imessage.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/dataPack.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/message.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/dataPack_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.3/ser/Service.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.3/ser/Service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/Service.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/Service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/utils/globalobj.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/utils/globalobj.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/zifare/iService.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/iService.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/zifare/iconnection.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/iconnection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/zifare/irequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/irequest.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/zifare/irouter.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/irouter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.5/Client.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.5/Client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.5/Service.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.5/Service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/iconnection.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/iconnection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/irequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/irequest.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/connection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/message.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/request.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/request.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +83,7 @@
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.3/ser" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build bili-zinx/myDemo/Zinx0.3/ser">
+  <component name="RunManager" selected="Go Test.TestDataPack in bili-zinx/zinx/znet">
     <configuration name="go build bili-zinx/myDemo/Zinx0.1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx" />
@@ -121,14 +111,6 @@
       <filePath value="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.3/ser/Service.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/base-zhishi/2022/05/24/main.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$" />
@@ -137,13 +119,25 @@
       <filePath value="$PROJECT_DIR$/xue-xi/base-zhishi/2022/06/06/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="TestDataPack in bili-zinx/zinx/znet" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet" />
+      <root_directory value="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx" />
+      <kind value="PACKAGE" />
+      <package value="bili-zinx/zinx/znet" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestDataPack\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestDataPack in bili-zinx/zinx/znet" />
         <item itemvalue="Go Build.go build bili-zinx/myDemo/Zinx0.3/ser" />
         <item itemvalue="Go Build.go build bili-zinx/myDemo/Zinx0.3" />
         <item itemvalue="Go Build.go build bili-zinx/myDemo/Zinx0.1" />
         <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build main.go (1)" />
       </list>
     </recent_temporary>
   </component>
