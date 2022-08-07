@@ -21,6 +21,8 @@ type GlobalObj struct {
 	Version string
 	MaxConn int
 	MaxPackageSize uint32 //当前框架最大数据包
+	WorkerPoolSize uint32 //当前工作池数量
+	MaxWorkerTaskLen uint32 //最多开辟多少个worker
 
 }
 
@@ -54,6 +56,8 @@ func init() {
 		Version:        "V0.5",
 		MaxConn:        1000,
 		MaxPackageSize: 4096,
+		WorkerPoolSize: 10,
+		MaxWorkerTaskLen: 1024,
 	}
 
 	//尝试从配置文件家在数据

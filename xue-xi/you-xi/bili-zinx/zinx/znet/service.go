@@ -31,6 +31,9 @@ func (s *Service) Start() {
 	fmt.Printf("[start] Service Listenner at IP :%s ,Port %d is starting \n" ,s.IP ,s.Port)
 
 	go func() {
+		//0 开启消息队列和工作池
+		s.MsgHandle.StartWorkerPool()
+
 		//1 获取tcp 的addr
 		addr, err := net.ResolveTCPAddr(s.IPVersion, fmt.Sprintf("%s:%d", s.IP, s.Port))
 		if err != nil {

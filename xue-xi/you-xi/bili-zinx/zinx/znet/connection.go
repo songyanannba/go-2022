@@ -1,6 +1,7 @@
 package znet
 
 import (
+	"bili-zinx/utils"
 	"bili-zinx/zinx/ziface"
 	"errors"
 	"fmt"
@@ -112,11 +113,12 @@ func (c *Connection) StartReader() {
 			msg: msg,
 		}
 
-		//c.Router.PreHandle(&req)
-		//fmt.Println("ssss==" ,string(buf))
-		//调用路由 执行方法
-		go c.MsgHandle.DoMsgHandler(&req)
-
+		if utils.GlobalObject.WorkerPoolSize > 0 {
+			c.MsgHandle.SendMsgToTaskQueue(&req)
+		} else {
+			//调用路由 执行方法
+			go c.MsgHandle.DoMsgHandler(&req)
+		}
 	}
 }
 
