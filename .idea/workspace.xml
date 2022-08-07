@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.6/Service.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.6/Service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.5/Service.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.5/Service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/connection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

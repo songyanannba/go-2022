@@ -23,7 +23,6 @@ type Service struct {
 }
 
 
-
 func (s *Service) Start() {
 	fmt.Println("[Zinx start] name is " ,utils.GlobalObject.Name)
 	fmt.Println("[Zinx start] Listener is " ,utils.GlobalObject.Host ,utils.GlobalObject.Port)
