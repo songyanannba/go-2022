@@ -16,8 +16,10 @@ type Service struct {
 	IP string
 	//服务器监听的端口
 	Port int
-	//当前的server 添加一个router
-	Router ziface.IRouter
+
+	//当前的消息管理模块
+	MsgHandle ziface.IMsgHandle
+
 }
 
 
@@ -59,7 +61,7 @@ func (s *Service) Start() {
 				continue
 			}
 
-			dealConn := NewConnection(conn, cid, s.Router)
+			dealConn := NewConnection(conn, cid, s.MsgHandle)
 			cid++
 
 			go dealConn.Start()
@@ -85,9 +87,9 @@ func (s *Service)Serve() {
 	select {}
 }
 
-func (s *Service)AddRouter(router ziface.IRouter) {
+func (s *Service)AddRouter(msgId uint32 ,router ziface.IRouter) {
 	//将一些服务器状态停止 或者回收
-	s.Router = router
+	s.MsgHandle.AddRouter(msgId , router)
 	fmt.Println("add router succ...")
 }
 
@@ -101,7 +103,7 @@ func NewService (Name string) ziface.IService {
 		IPVersion: "tcp4",
 		IP:        utils.GlobalObject.Host,
 		Port:      utils.GlobalObject.Port,
-		Router: nil,
+		MsgHandle: NewMsgHandle(),
 	}
 
 	return s

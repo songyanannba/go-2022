@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/imsgHandler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/msgHandler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.6/Client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.6/Client1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.6/Service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.6/conf/zinx.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/iService.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/iService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/connection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +63,16 @@
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.6" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.6" />
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo" />
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx" />
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/conf" />
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4" />
-      <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/conf" />

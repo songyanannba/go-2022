@@ -14,5 +14,5 @@ type IService interface {
 	Serve()
 
 	//路由方法
-	AddRouter(router IRouter)
+	AddRouter(msgId uint32 , router IRouter)
 }
