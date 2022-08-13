@@ -10,7 +10,7 @@ import (
 )
 
 /**
-连接模块
+  连接模块
 */
 type Connection struct {
 	//当前连接的 tcp套接字
@@ -30,11 +30,14 @@ type Connection struct {
 
 	//该连接处理的方法
 	MsgHandle ziface.IMsgHandle
+
+	//当前conn属于那个service
+	TcpService ziface.IService
 }
 
 //初始化连接的方法
 
-func NewConnection(conn *net.TCPConn, connID uint32, msgHandle ziface.IMsgHandle) *Connection {
+func NewConnection(server ziface.IService, conn *net.TCPConn, connID uint32, msgHandle ziface.IMsgHandle) *Connection {
 	c := &Connection{
 		conn:     conn,
 		ConnId:   connID,
@@ -42,7 +45,10 @@ func NewConnection(conn *net.TCPConn, connID uint32, msgHandle ziface.IMsgHandle
 		MsgChan:  make(chan []byte),
 		MsgHandle:   msgHandle,
 		ExitChan: make(chan bool, 1),
+		TcpService: server,
 	}
+
+	c.TcpService.GetConnMgr().Add(c)
 	return c
 }
 
@@ -141,6 +147,9 @@ func (c *Connection) Stop() {
 	c.conn.Close()
 
 	c.ExitChan <-true
+
+	//
+	c.TcpService.GetConnMgr().Remove(c)
 
 	//回收资源
 	close(c.ExitChan)

@@ -44,9 +44,9 @@ func (p *PingRouter) PostHandle(request ziface.IRequest) {
 func main() {
 
 	//创建service句柄
-	s := znet.NewService("[zinx 0.3]")
+	s := znet.NewService()
 
-	s.AddRouter(&PingRouter{})
+	//s.AddRouter(&PingRouter{})
 
 	//启动service
 	s.Serve()

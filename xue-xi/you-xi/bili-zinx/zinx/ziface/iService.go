@@ -15,4 +15,7 @@ type IService interface {
 
 	//路由方法
 	AddRouter(msgId uint32 , router IRouter)
+
+	//获取service的连接
+	GetConnMgr() IConnManager
 }

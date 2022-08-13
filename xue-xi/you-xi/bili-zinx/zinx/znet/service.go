@@ -20,6 +20,8 @@ type Service struct {
 	//当前的消息管理模块
 	MsgHandle ziface.IMsgHandle
 
+	ConnMgr ziface.IConnManager
+
 }
 
 
@@ -63,7 +65,15 @@ func (s *Service) Start() {
 				continue
 			}
 
-			dealConn := NewConnection(conn, cid, s.MsgHandle)
+			//最大连接的判断
+			if s.ConnMgr.Len() >= utils.GlobalObject.MaxConn {
+				//todo 给客户端相应一个最大连接的错误包
+				fmt.Println("==>conn is too many" ,s.ConnMgr.Len())
+				conn.Close()
+				continue
+			}
+
+			dealConn := NewConnection(s, conn, cid, s.MsgHandle)
 			cid++
 
 			go dealConn.Start()
@@ -77,6 +87,8 @@ func (s *Service) Start() {
 
 func (s *Service)Stop() {
 	//将一些服务器状态停止 或者回收
+	fmt.Println("[STOP] zinx service stop")
+	s.ConnMgr.ClearConn()
 }
 
 func (s *Service)Serve() {
@@ -95,10 +107,14 @@ func (s *Service)AddRouter(msgId uint32 ,router ziface.IRouter) {
 	fmt.Println("add router succ...")
 }
 
+func(s *Service)GetConnMgr() ziface.IConnManager {
+	return s.ConnMgr
+}
+
 /**
 初始化Service的方法
  */
-func NewService (Name string) ziface.IService {
+func NewService () ziface.IService {
 
 	s := &Service{
 		Name:      utils.GlobalObject.Name,
@@ -106,6 +122,7 @@ func NewService (Name string) ziface.IService {
 		IP:        utils.GlobalObject.Host,
 		Port:      utils.GlobalObject.Port,
 		MsgHandle: NewMsgHandle(),
+		ConnMgr: NewConnManager(),
 	}
 
 	return s
