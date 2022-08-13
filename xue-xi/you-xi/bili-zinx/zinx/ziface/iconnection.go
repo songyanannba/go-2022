@@ -18,6 +18,13 @@ type IConnection interface {
 
 	//发送数据 将数据发送给远程客户端
 	SendMsg(msgId uint32 ,data []byte) error
+
+
+	SetProperty(key string , value interface{})
+
+	GetProperty(key string)(interface{} , error)
+
+	RemoveProperty(key string)
 }
 
 //定义一个处理业务的方法

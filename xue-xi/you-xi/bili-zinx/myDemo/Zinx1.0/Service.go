@@ -12,6 +12,8 @@ type PingRouter struct {
 }
 
 
+
+
 func (p *PingRouter) Handle(request ziface.IRequest) {
 
 	fmt.Println("call ping router Handler...")
@@ -38,26 +40,12 @@ func DoConnBegin(conn ziface.IConnection) {
 	if err := conn.SendMsg(202 , []byte("DoConnBegin...")) ; err != nil {
 		fmt.Println(err)
 	}
-	conn.SetProperty("Name" , "song-service")
-	conn.SetProperty("WAI_HAO" , "YUZHOUDIYISHUAI")
 }
 
 func DoConnLost(conn ziface.IConnection) {
 	fmt.Println("==>do conn Lost is call...")
 	//服务资源回收
 	fmt.Println("service controller...ConnID " ,conn.GetConnID() , "is Lost")
-
-	if name , err := conn.GetProperty("Name") ; err == nil {
-		fmt.Println("***property WAI_HAO is " , name)
-	} else {
-		fmt.Println("GetProperty err" ,err)
-	}
-
-	if name1 , err := conn.GetProperty("WAI_HAO") ; err == nil {
-		fmt.Println("***property name is " , name1)
-	} else {
-		fmt.Println("GetProperty err" ,err)
-	}
 }
 
 

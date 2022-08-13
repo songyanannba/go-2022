@@ -18,4 +18,15 @@ type IService interface {
 
 	//获取service的连接
 	GetConnMgr() IConnManager
+
+
+	//添加钩子函数
+
+	SetOnConnStart(func(connection IConnection))
+	SetOnConnStop(func(connection IConnection))
+
+	//调用钩子函数
+
+	CallOnConnStart(connection IConnection)
+	CallOnConnStop(connection IConnection)
 }

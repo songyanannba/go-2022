@@ -22,6 +22,10 @@ type Service struct {
 
 	ConnMgr ziface.IConnManager
 
+	OnConnStart func(conn ziface.IConnection)
+
+	OnConnStop func(conn ziface.IConnection)
+
 }
 
 
@@ -77,7 +81,6 @@ func (s *Service) Start() {
 			cid++
 
 			go dealConn.Start()
-
 		}
 	}()
 
@@ -126,4 +129,26 @@ func NewService () ziface.IService {
 	}
 
 	return s
+}
+
+func (s *Service)SetOnConnStart(hookFunc func(connection ziface.IConnection)) {
+	s.OnConnStart = hookFunc
+}
+
+func (s *Service)SetOnConnStop(hookFunc func(connection ziface.IConnection)) {
+	s.OnConnStop = hookFunc
+}
+
+func (s *Service)CallOnConnStart(conn ziface.IConnection) {
+	if s.OnConnStart != nil {
+		fmt.Println("--call inConnStart()...")
+		s.OnConnStart(conn)
+	}
+}
+
+func (s *Service)CallOnConnStop(conn ziface.IConnection) {
+	if s.OnConnStop != nil {
+		fmt.Println("--call CallOnConnStop()...")
+		s.OnConnStop(conn)
+	}
 }
