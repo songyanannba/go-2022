@@ -2075,7 +2075,7 @@ var file_product_proto_depIdxs = []int32{
 	14, // 21: ProductService.CreateCategory:input_type -> CategoryItemReq
 	11, // 22: ProductService.DeleteCategory:input_type -> CategoryDelReq
 	14, // 23: ProductService.UpdateCategory:input_type -> CategoryItemReq
-	8,  // 24: ProductService.BrandList:input_type -> BrandPagingReq
+	8,  // 24-gin: ProductService.BrandList:input_type -> BrandPagingReq
 	7,  // 25: ProductService.CreateBrand:input_type -> BrandItemReq
 	7,  // 26: ProductService.DeleteBrand:input_type -> BrandItemReq
 	7,  // 27: ProductService.UpdateBrand:input_type -> BrandItemReq

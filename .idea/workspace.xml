@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx1.0/Client0.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx1.0/Client1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx1.0/Service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx1.0/conf/zinx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/15/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/go-shizhan1/forms/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/go-shizhan1/mian.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/go-shizhan1/mysql/mysql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/core/grid.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.9/Service.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.9/Service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/iService.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/iService.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/iconnection.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/ziface/iconnection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/connection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/zinx/znet/service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/algorithm/2022/06/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/algorithm/2022/06/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/proto/pb/product.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part2/proto/pb/product.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/proto/pb/product.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go/mic-trainning-lessons-part4/proto/pb/product.pb.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,42 +64,42 @@
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xue-xi/go-shizhan1" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xue-xi/go-shizhan1" />
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo" />
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.6" />
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx" />
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/conf" />
-      <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xue-xi/go-shizhan1" />
+      <recent name="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/24-gin/gin" />
+      <recent name="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/15" />
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/conf" />
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4" />
-      <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/ser" />
-      <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.3/cli" />
-      <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.3/ser" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestDataPack in bili-zinx/zinx/znet">
-    <configuration name="go build bili-zinx/myDemo/Zinx0.1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build 24/mysql">
+    <configuration name="go build 24" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/24-gin" />
       <kind value="PACKAGE" />
-      <package value="bili-zinx/myDemo/Zinx0.1" />
+      <package value="24" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.1/Service.go" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/24-gin/mian.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build bili-zinx/myDemo/Zinx0.3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 24/mysql" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/24-gin" />
       <kind value="PACKAGE" />
-      <package value="bili-zinx/myDemo/Zinx0.3" />
+      <package value="24/mysql" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.3/Service.go" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/24-gin/mysql/mysql.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build bili-zinx/myDemo/Zinx0.3/ser" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -112,12 +111,12 @@
       <filePath value="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.3/ser/Service.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/base-zhishi/2022/06/06/main.go" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/15/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="TestDataPack in bili-zinx/zinx/znet" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -134,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 24/mysql" />
+        <item itemvalue="Go Build.go build 24" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.TestDataPack in bili-zinx/zinx/znet" />
         <item itemvalue="Go Build.go build bili-zinx/myDemo/Zinx0.3/ser" />
-        <item itemvalue="Go Build.go build bili-zinx/myDemo/Zinx0.3" />
-        <item itemvalue="Go Build.go build bili-zinx/myDemo/Zinx0.1" />
-        <item itemvalue="Go Build.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>
