@@ -52,7 +52,7 @@ func(g *Grid)Remove(playerID int) {
 }
 
 
-func(g *Grid)GetPlayerIds(playerID int) (playerIDs []int) {
+func(g *Grid)GetPlayerIds() (playerIDs []int) {
 	g.PIdLock.Lock()
 	defer  g.PIdLock.Unlock()
 
