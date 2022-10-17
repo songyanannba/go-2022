@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/09-tcp-ip/socket.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/10/16/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/10/16/v1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/10/16/v2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/设计模式/5依赖倒转/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/设计模式/5依赖倒转/v1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-zhishi/2022/设计模式/5依赖倒转/v2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/conf/zinx.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/core/aoi.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/core/aoi_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/core/player.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb/google/protobuf/any.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb/google/protobuf/api.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb/google/protobuf/compiler/plugin.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb/google/protobuf/descriptor.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb/google/protobuf/duration.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb/google/protobuf/empty.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb/google/protobuf/field_mask.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb/google/protobuf/source_context.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb/google/protobuf/struct.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb/google/protobuf/timestamp.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb/google/protobuf/type.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb/google/protobuf/wrappers.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb/msg.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/protobufDemo/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/protobufDemo/pb/Person.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/core/grid.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/core/grid.go" afterDir="false" />
-    </list>
+    <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,11 +66,11 @@
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xue-xi" />
       <recent name="$PROJECT_DIR$/xue-xi/go-shizhan1" />
       <recent name="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/24-gin/gin" />
       <recent name="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/15" />
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4/conf" />
-      <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/myDemo/Zinx0.4" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build main.go">
