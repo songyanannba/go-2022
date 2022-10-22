@@ -1,4 +1,5 @@
 package conf
+
 /*
 import (
 	"github.com/spf13/viper"
@@ -11,7 +12,7 @@ type AppConfig struct {
 
 var AppConf AppConfig
 
-func init() {
+function init() {
 	v := viper.New()
 	configName := "dev-config.yaml"
 	v.SetConfigFile(configName)

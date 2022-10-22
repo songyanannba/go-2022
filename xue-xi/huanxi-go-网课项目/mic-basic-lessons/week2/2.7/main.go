@@ -47,12 +47,12 @@ func PrintRes(reader io.Reader) {
 func main() {
 
 	//匿名函数
-	/*show2 := func() {
+	/*show2 := function() {
 		fmt.Println("show222")
 	}
 	show2()
 	//fmt.Println(show2)
-	var checkout CheckOut = func(x, y int) int {
+	var checkout CheckOut = function(x, y int) int {
 		return x + y
 	}
 	fmt.Println(checkout(11,22))*/

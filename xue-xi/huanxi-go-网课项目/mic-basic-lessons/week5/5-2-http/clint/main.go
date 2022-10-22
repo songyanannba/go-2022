@@ -11,7 +11,7 @@ type Result struct {
 	Msg string `json:"msg"`
 }
 
-/*func GetUrl(url string) (string, error) {
+/*function GetUrl(url string) (string, error) {
 	r, err := http.Get(url)
 	if err != nil {
 		return "", err

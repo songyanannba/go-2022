@@ -3,8 +3,8 @@ package tree
 import "fmt"
 
 type TreeNode struct {
-	Value int
-	Left ,Right *TreeNode
+	Value       int
+	Left, Right *TreeNode
 }
 
 //自定义构造函数 （工厂）
@@ -13,15 +13,13 @@ func creatNodes(value int) *TreeNode {
 	return &TreeNode{Value: value}
 }
 
-
-/*func main() {
+/*function main() {
 	//初始化和基本操作
 	//xx1()
 	//结构体方法
 	xx2()
 
 }*/
-
 
 //xx2===
 func Xx2() {
@@ -46,7 +44,6 @@ func Xx2() {
 	root.Traverse()
 }
 
-
 func (node *TreeNode) Print() {
 	if node == nil {
 		fmt.Println("print value to nil ..")
@@ -55,13 +52,14 @@ func (node *TreeNode) Print() {
 	fmt.Println(node.Value)
 }
 
-func (node *TreeNode) SetValue (value int) {
+func (node *TreeNode) SetValue(value int) {
 	if node == nil {
 		fmt.Println("setValue to nil ..")
 		return
 	}
 	node.Value = value
 }
+
 //先序遍历
 func (node *TreeNode) Traverse() {
 	if node == nil {
@@ -73,9 +71,8 @@ func (node *TreeNode) Traverse() {
 	node.Right.Traverse()
 }
 
-
 //xx1===
-func Xx1 () {
+func Xx1() {
 	fmt.Println("start...")
 	var root TreeNode
 	fmt.Println(root)
@@ -84,13 +81,13 @@ func Xx1 () {
 	fmt.Println(root)
 
 	root.Left = &TreeNode{}
-	root.Right = &TreeNode{5,nil ,nil}
+	root.Right = &TreeNode{5, nil, nil}
 	fmt.Println(root)
 	//切片
-	nodes := []TreeNode {
+	nodes := []TreeNode{
 		{Value: 6},
 		{},
-		{8, nil ,nil},
+		{8, nil, nil},
 	}
 	fmt.Println(nodes)
 	creatNodes(2)

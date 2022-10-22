@@ -5,16 +5,14 @@ import (
 	"net/http"
 )
 
-//web
-
+//web-beego
 
 func main() {
 
-	syn := func(resp http.ResponseWriter , r *http.Request) {
-		fmt.Println("request " ,r)
+	syn := func(resp http.ResponseWriter, r *http.Request) {
+		fmt.Println("request ", r)
 
-
-		fmt.Fprint(resp , "欢迎。。")
+		fmt.Fprint(resp, "欢迎。。")
 	}
 
 	/*http.Cookie{
@@ -32,8 +30,8 @@ func main() {
 		Unparsed:   nil,
 	}*/
 
-	http.HandleFunc("/time" , syn)
+	http.HandleFunc("/time", syn)
 
-	http.ListenAndServe(":9999" ,nil )
+	http.ListenAndServe(":9999", nil)
 
 }

@@ -42,7 +42,7 @@ type Spo struct {
 	GIRL
 }*/
 
-/*func (s *Spo) Running() {
+/*function (s *Spo) Running() {
 	fmt.Println("Spo 33")
 }*/
 

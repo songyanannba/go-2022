@@ -13,7 +13,6 @@ import (
 
 const resName = "cart-order"
 
-
 func main() {
 	conf := config.NewDefaultConfig()
 	conf.Sentinel.Log.Logger = logging.NewConsoleLogger()
@@ -21,7 +20,6 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-
 
 	ch := make(chan struct{})
 	for i := 0; i <= 2; i++ {
@@ -33,7 +31,7 @@ func main() {
 					time.Sleep(time.Duration(rand.Uint64()%10) * time.Millisecond)
 				} else {
 					fmt.Println("限流通过...")
-					time.Sleep(time.Duration(rand.Uint64()%10 )* time.Millisecond)
+					time.Sleep(time.Duration(rand.Uint64()%10) * time.Millisecond)
 					entry.Exit()
 				}
 			}
@@ -59,21 +57,7 @@ func main() {
 	<-ch
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*func main() {
+/*function main() {
 
 	conf := config.NewDefaultConfig()
 	conf.Sentinel.Log.Logger = logging.NewConsoleLogger()
@@ -86,7 +70,7 @@ func main() {
 	ch := make(chan struct{})
 
 	for i := 0; i <= 2; i++ {
-		go func() {
+		go function() {
 			for {
 				entry, blockError := sentinel.Entry(resName, sentinel.WithTrafficType(base.Inbound))
 				if blockError != nil {
@@ -101,7 +85,7 @@ func main() {
 		}()
 	}
 
-	go func() {
+	go function() {
 		time.Sleep(3 * time.Millisecond)
 		_, err = flow.LoadRules([]*flow.Rule{
 			{
@@ -120,7 +104,7 @@ func main() {
 	<-ch
 }*/
 
-/*func main() {
+/*function main() {
 
 	err := sentinel.InitDefault()
 	if err != nil {
