@@ -10,7 +10,7 @@ var config Config
 func init() {
 	v := viper.New()
 	//v.SetConfigFile("mic-trainning-lessons/dev-config.yaml")
-	v.SetConfigFile("/Users/songyanan/GolandProjects/go-2022/xue-xi/huanxi-go/mic-trainning-lessons/dev-config.yaml")
+	v.SetConfigFile("/Users/songyanan/GolandProjects/go-2022/xue-xi/huanxi-go-网课项目/mic-trainning-lessons/dev-config.yaml")
 	err := v.ReadInConfig()
 	if err != nil {
 		panic(err)

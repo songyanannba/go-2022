@@ -16,7 +16,7 @@ var OrderClient pb.OrderServiceClient
 var ProductClient pb.ProductServiceClient
 var StockClient pb.StockServiceClient
 
-var fileName = "/Users/songyanan/GolandProjects/go-2022/xue-xi/huanxi-go/mic-trainning-lessons-part3/dev-config.yaml"
+var fileName = "/Users/songyanan/GolandProjects/go-2022/xue-xi/huanxi-go-网课项目/mic-trainning-lessons-part3/dev-config.yaml"
 
 func initNacos() {
 	v := viper.New()

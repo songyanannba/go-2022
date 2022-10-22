@@ -38,6 +38,6 @@ func main() {
 	//defer
 	//Cook()
 	foods := []string{"烧鸡", "烤鸭", "羊腿", "干炒牛肉"}
-	p := "/xue-xi/huanxi-go/mic-basic-lessons/week2/5-2-http.8/foods.txt"
+	p := "/xue-xi/huanxi-go-网课项目/mic-basic-lessons/week2/5-2-http.8/foods.txt"
 	WriteMee(p, foods)
 }
