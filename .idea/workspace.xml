@@ -4,60 +4,19 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/10/23/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/10/29/01/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/10/29/02切片排序/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/10/29/03文件/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/10/29/03文件/user.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/20/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/web-beego/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/web-beego/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/web-beego1/conf/app.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/web-beego1/controllers/auth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/web-beego1/controllers/test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/web-beego1/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/web-beego1/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/web-beego1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/web-beego1/routers/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/web-beego1/views/auth/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/web-beego1/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/chat/msgIf.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/chat/private.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/function/slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/manager/activity.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/manager/bag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/manager/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/manager/friend.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/manager/if.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/manager/minigame.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/manager/player.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/network/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/network/example/client/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/network/example/service/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/network/message.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/network/normal_packer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/network/protocol/gen.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/network/service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/network/session.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/network/session_manager.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/player/handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/player/handler_register.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/player/player.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/world/mgrmgr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/算法/2022/完全二叉树/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="命名">
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/27/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/12/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/client/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/client/input_hand_register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/client/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/network/protocol/proto/messageId.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/network/protocol/proto/player.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/01/15/object-oriented/结构体和方法main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/01/15/object-oriented/结构体和方法main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/08/15/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/08/15/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/10/22/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/10/22/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go-网课项目/mic-basic-lessons/week2/2.4/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go-网课项目/mic-basic-lessons/week2/2.4/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go-网课项目/mic-basic-lessons/week2/2.7/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go-网课项目/mic-basic-lessons/week2/2.7/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go-网课项目/mic-basic-lessons/week5/5-2-http/clint/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go-网课项目/mic-basic-lessons/week5/5-2-http/clint/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go-网课项目/mic-trainning-lessons-part4/sentinel/test1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go-网课项目/mic-trainning-lessons-part4/sentinel/test1/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/huanxi-go-网课项目/mic-trainning-lessons/conf/conf.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/huanxi-go-网课项目/mic-trainning-lessons/conf/conf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/game-1/network/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/game-1/network/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/game-1/network/protocol/gen.bat" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/game-1/network/protocol/gen.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/算法/2022/爬楼梯/mian.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/算法/2022/爬楼梯/mian.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +74,7 @@
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/web-beego1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
@@ -134,23 +93,13 @@
       <recent name="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/15" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
-    <configuration name="go build game-1/network/example/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
+    <configuration name="go build 最长子数组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/game-1" />
-      <kind value="PACKAGE" />
-      <package value="game-1/network/example/client" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/game-1/network/example/client/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build game-1/network/example/service" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/game-1" />
-      <kind value="PACKAGE" />
-      <package value="game-1/network/example/service" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/game-1/network/example/service/main.go" />
+      <filePath value="$PROJECT_DIR$/xue-xi/算法/2022/最长子数组/最长子数组.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -158,7 +107,7 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2022/10/29/01/main.go" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2022/12/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -169,21 +118,29 @@
       <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/20/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2022/10/29/03文件/main.go" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/27/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build mian.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/算法/2022/爬楼梯/mian.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build game-1/network/example/client" />
-        <item itemvalue="Go Build.go build game-1/network/example/service" />
-        <item itemvalue="Go Build.go build main.go (5)" />
         <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build 最长子数组.go" />
+        <item itemvalue="Go Build.go build mian.go" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -202,6 +159,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="命名" />
+    <option name="LAST_COMMIT_MESSAGE" value="命名" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

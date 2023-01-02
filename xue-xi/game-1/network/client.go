@@ -3,22 +3,39 @@ package network
 import (
 	"encoding/binary"
 	"fmt"
+	"github.com/nacos-group/nacos-sdk-go/common/logger"
+	"github.com/phuhao00/greatestworks-proto/gen/messageId"
 	"net"
 	"time"
+	"github.com/phuhao00/network"
 )
 
-type Client struct {
-	Address string
-	packer  NormalPacker
+type ClientPacket struct {
+
 }
 
-func NewClient(address string) *Client {
-	return &Client{
-		Address: address,
-		packer: NormalPacker{
-			Order: binary.BigEndian,
-		},
+type Client struct {
+	cli             *network.Client
+	inputHandlers   map[string]InputHandler
+	messageHandlers map[messageId.MessageId]MessageHandler
+	console         *ClientConsole
+	chInput         chan *InputParam
+}
+
+func NewClient() *Client {
+	c := &Client{
+		cli:             network.NewClient(":8023", 200, logger.Logger),
+		inputHandlers:   map[string]InputHandler{},
+		messageHandlers: map[messageId.MessageId]MessageHandler{},
+		console:         NewClientConsole(),
 	}
+	c.cli.OnMessageCb = c.OnMessage
+	c.cli.ChMsg = make(chan *network.Message, 1)
+	c.chInput = make(chan *InputParam, 1)
+	c.console.chInput = c.chInput
+	//https://github.com/phuhao00/greatestworks-proto.git
+	//github.com/phuhao00/greatestworks-proto
+	return c
 }
 
 func (c *Client) Run() {

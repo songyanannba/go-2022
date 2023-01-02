@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package player;
+option go_package = "/player";
+
+message CSCreateUser{
+  string UserName = 1;
+  string Password = 2;
+}
+
+message ScCreateUser {
+
+}
+
+message CSLogin {
+  uint64 UId = 1;
+}
+
+
+message CSAddFriend {
+  uint64 UId = 1;
+}
