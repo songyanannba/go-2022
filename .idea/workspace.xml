@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="命名">
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/27/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/12/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/client/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/client/handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/client/input_hand_register.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/client/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/network/protocol/proto/messageId.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/game-1/network/protocol/proto/player.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/game-1/network/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/game-1/network/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/game-1/network/protocol/gen.bat" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/game-1/network/protocol/gen.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/算法/2022/爬楼梯/mian.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/算法/2022/爬楼梯/mian.go" afterDir="false" />
-    </list>
+    <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="命名" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
