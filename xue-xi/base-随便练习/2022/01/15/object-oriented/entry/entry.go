@@ -7,7 +7,9 @@ import (
 
 
 type myTreeNode struct {
+
 	node *tree.TreeNode
+
 }
 
 //后序遍历

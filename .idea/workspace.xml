@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="命名" />
+    <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="命名">
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0102对象池.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0315defer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320值传递.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320反射.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/01/15/object-oriented/entry/entry.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2022/01/15/object-oriented/entry/entry.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +27,7 @@
   <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -73,20 +81,44 @@
       <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xue-xi/base-随便练习/2023" />
       <recent name="$PROJECT_DIR$/xue-xi/game-1/network/example" />
       <recent name="$PROJECT_DIR$/xue-xi" />
       <recent name="$PROJECT_DIR$/xue-xi/go-shizhan1" />
       <recent name="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/24-gin/gin" />
-      <recent name="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/15" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
-    <configuration name="go build 最长子数组.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build 0320值传递.go">
+    <configuration name="go build 0102对象池.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/算法/2022/最长子数组/最长子数组.go" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0102对象池.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 0315defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0315defer.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 0320反射.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320反射.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 0320值传递.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320值传递.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -97,37 +129,13 @@
       <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2022/12/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/20/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/27/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build mian.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/算法/2022/爬楼梯/mian.go" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 0320值传递.go" />
+        <item itemvalue="Go Build.go build 0320反射.go" />
+        <item itemvalue="Go Build.go build 0315defer.go" />
+        <item itemvalue="Go Build.go build 0102对象池.go" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build 最长子数组.go" />
-        <item itemvalue="Go Build.go build mian.go" />
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>
