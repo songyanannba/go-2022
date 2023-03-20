@@ -14,8 +14,8 @@ var NacosConf NacosConfig
 //var ViperConf ViperConfig
 
 //var fileName = "./dev-config.yaml"
-//var fileName = "/Users/songyanan/GolandProjects/go-2022/xue-xi/huanxi-go-网课项目/mic-trainning-lessons/dev-config.yaml"
-var fileName = "/Users/songyanan/GolandProjects/go-2022/xue-xi/huanxi-go-网课项目/mic-trainning-lessons/pro-config.yaml"
+//var fileName = "/Users/songyanan/GolandProjects/go-2022/xue-xi/商城微服务项目/mic-trainning-lessons/dev-config.yaml"
+var fileName = "/Users/songyanan/GolandProjects/go-2022/xue-xi/商城微服务项目/mic-trainning-lessons/pro-config.yaml"
 
 func initNacos() {
 	v := viper.New()

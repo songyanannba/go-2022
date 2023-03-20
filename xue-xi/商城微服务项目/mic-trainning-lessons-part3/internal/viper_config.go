@@ -11,18 +11,14 @@ import (
 
 var AppConf AppConfig
 var NacosConf NacosConfig
-//var ViperConf ViperConfig
 
-//var fileName = "./dev-config.yaml"
-//var fileName = "/Users/songyanan/GolandProjects/go-2022/xue-xi/huanxi-go-网课项目/mic-trainning-lessons-part2/dev-config.yaml"
-var fileName = "/Users/songyanan/GolandProjects/go-2022/xue-xi/huanxi-go-网课项目/mic-trainning-lessons-part2/dev-config.yaml"
+var fileName = "/Users/songyanan/GolandProjects/go-2022/xue-xi/商城微服务项目/mic-trainning-lessons-part3/dev-config.yaml"
 
 func initNacos() {
 	v := viper.New()
 	v.SetConfigFile(fileName)
 	v.ReadInConfig()
 	v.Unmarshal(&NacosConf)
-	//fmt.Println(NacosConf)
 }
 
 func initFromNacos() {
@@ -53,9 +49,7 @@ func initFromNacos() {
 		DataId: NacosConf.DataId,
 		Group:  NacosConf.Group,
 	})
-	//fmt.Println(content)
 	json.Unmarshal([]byte(content), &AppConf)
-	//fmt.Println(ViperConf)
 }
 
 //第二种结合nacos读取配置的方法
@@ -65,4 +59,5 @@ func init() {
 	initFromNacos()
 	fmt.Println("初始化成功...")
 	initRedis()
+	InitDB()
 }

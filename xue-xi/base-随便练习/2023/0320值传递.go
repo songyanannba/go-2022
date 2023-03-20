@@ -4,6 +4,10 @@ import (
 	"fmt"
 )
 
+const (
+	name  string  = "q"
+)
+
 type UUser struct {
 	name string
 	age int
