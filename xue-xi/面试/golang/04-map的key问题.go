@@ -11,17 +11,29 @@ import "fmt"
 
 func main () {
 	//可以
-	 var mstr map[string]string
-	 fmt.Println(mstr)
+	 //var mstr map[string]string
+	 //fmt.Println(mstr)
 	//可以
-	var mbool map[bool]string
-	fmt.Println(mbool)
+	//var mbool map[bool]string
+	//fmt.Println(mbool)
 	//可以
-	var marr map[[1]int]string
-	fmt.Println(marr)
+	//var marr map[[1]int]string
+	//fmt.Println(marr)
 
 
 	 //不可以
 	//var mslice map[[]int]string
 	//fmt.Println(mslice)
+
+	t1()
+}
+
+
+func t1() {
+	var m1 map[string]string
+
+
+	//m := make(map[string]string)
+
+	fmt.Println("=====" ,m1["1"])
 }

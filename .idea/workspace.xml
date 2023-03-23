@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="命名">
-      <change afterPath="$PROJECT_DIR$/xue-xi/面试/golang/01-defer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/面试/golang/02-值传递引用传递.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/面试/golang/03-反射tag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/面试/golang/04-map的key问题.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/面试/golang/05-gc垃圾回收.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/面试/golang/06-协程池.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/面试/golang/04-map的key问题.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/面试/golang/04-map的key问题.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +50,9 @@
     <setting file="file://$PROJECT_DIR$/xue-xi/game-1/network/example/client/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/xue-xi/game-1/manager/player.go" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="23mJIg6CR7Lvd1a2X2sOYbk9l23" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -88,7 +88,7 @@
       <recent name="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/24-gin/gin" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 01-defer.go">
+  <component name="RunManager" selected="Go Build.go build 06-协程池.go">
     <configuration name="go build 01-defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$" />
@@ -129,11 +129,19 @@
       <filePath value="$PROJECT_DIR$/xue-xi/面试/golang/04-map的key问题.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 06-协程池.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/面试/golang/06-协程池.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build 01-defer.go" />
+        <item itemvalue="Go Build.go build 06-协程池.go" />
         <item itemvalue="Go Build.go build 04-map的key问题.go" />
-        <item itemvalue="Go Build.go build 0320值传递.go" />
+        <item itemvalue="Go Build.go build 01-defer.go" />
         <item itemvalue="Go Build.go build 0320反射.go" />
         <item itemvalue="Go Build.go build 0315defer.go" />
       </list>
