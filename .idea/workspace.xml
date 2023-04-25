@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="命名">
-      <change afterPath="$PROJECT_DIR$/xue-xi/面试/golang/06-协程池.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04-20-struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04.23string-json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0418-struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-slict.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-socket-heater.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-socket-room.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-socket.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/面试/golang/04-map的key问题.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/面试/golang/04-map的key问题.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320反射.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320反射.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +27,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
+  <component name="GOROOT" url="file://$USER_HOME$/go/go1.20.3" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -38,17 +44,22 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/xue-xi/game-1/player/handler.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/xue-xi/game-1/player/player.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/xue-xi/商城微服务项目/mic-trainning-lessons/internal/viper_config.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/xue-xi/商城微服务项目/mic-trainning-lessons/internal/redis.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/xue-xi/game-1/network/client.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/xue-xi/商城微服务项目/mic-trainning-lessons/internal/consul.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/xue-xi/game-1/world/mgrmgr.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/xue-xi/商城微服务项目/mic-trainning-lessons/internal/db.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/xue-xi/game-1/network/example/service/main.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/xue-xi/game-1/network/example/client/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/04.23string-json.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/xue-xi/game-1/manager/player.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-socket.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xue-xi/game-1/player/player.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xue-xi/game-1/network/example/service/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-socket-heater.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xue-xi/game-1/player/handler.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-socket-room.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xue-xi/game-1/network/example/client/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xue-xi/商城微服务项目/mic-trainning-lessons/internal/redis.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xue-xi/商城微服务项目/mic-trainning-lessons/internal/consul.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xue-xi/商城微服务项目/mic-trainning-lessons/internal/viper_config.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xue-xi/game-1/world/mgrmgr.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/04-20-struct.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="1" />
@@ -70,7 +81,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -88,23 +99,7 @@
       <recent name="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/24-gin/gin" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 06-协程池.go">
-    <configuration name="go build 01-defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/面试/golang/01-defer.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 0315defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0315defer.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build 2023">
     <configuration name="go build 0320反射.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$" />
@@ -121,12 +116,20 @@
       <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320值传递.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 04-map的key问题.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 04-20-struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/面试/golang/04-map的key问题.go" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04-20-struct.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 0418-struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0418-struct.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 06-协程池.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -137,13 +140,22 @@
       <filePath value="$PROJECT_DIR$/xue-xi/面试/golang/06-协程池.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 2023" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/base-随便练习/2023" />
+      <kind value="PACKAGE" />
+      <package value="2023" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04.23string-json.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build 06-协程池.go" />
-        <item itemvalue="Go Build.go build 04-map的key问题.go" />
-        <item itemvalue="Go Build.go build 01-defer.go" />
+        <item itemvalue="Go Build.go build 2023" />
+        <item itemvalue="Go Build.go build 04-20-struct.go" />
+        <item itemvalue="Go Build.go build 0418-struct.go" />
         <item itemvalue="Go Build.go build 0320反射.go" />
-        <item itemvalue="Go Build.go build 0315defer.go" />
+        <item itemvalue="Go Build.go build 06-协程池.go" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +189,31 @@
           <url>file://$PROJECT_DIR$/xue-xi/商城微服务项目/mic-basic-lessons/week2/2.1/main.go</url>
           <line>14</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320反射.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320反射.go</url>
+          <line>44</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320反射.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320反射.go</url>
+          <line>27</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/04-20-struct.go</url>
+          <line>45</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

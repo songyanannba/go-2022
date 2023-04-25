@@ -21,8 +21,13 @@ func getStructTag(f reflect.StructField) string {
 
 func main() {
 
+	var name = "qq"
 
-	user := &User{"John Doe The Fourth", 20}
+	fmt.Println(1)
+	fmt.Println(3)
+	fmt.Println(4)
+	fmt.Println(name)
+	//user := &User{"John Doe The Fourth", 20}
 
 
 
@@ -37,9 +42,9 @@ func main() {
 
 
 
-	vof := reflect.ValueOf(user)
+	/*vof := reflect.ValueOf(user)
 	var arr []reflect.Value
-	vof.MethodByName("Sss").Call(arr)
+	vof.MethodByName("Sss").Call(arr)*/
 
 }
 
