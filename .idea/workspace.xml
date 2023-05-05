@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="命名">
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04-20-struct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04.23string-json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0418-struct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-slict.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-socket-heater.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-socket-room.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-socket.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/tag/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/test-slice/main1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/test-slice/main2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/testpprof/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/testpprof/profile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/websocket/conf.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/websocket/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/xxl/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/xxl2/func.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/xxl2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/xxl3/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/xxl4/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320反射.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320反射.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0315defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0315defer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-slict.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-slict.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,16 +86,16 @@
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xue-xi/base-随便练习/2023" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xue-xi/base-随便练习/2023" />
+      <recent name="$PROJECT_DIR$/xue-xi/base-随便练习/2023/testpprof" />
       <recent name="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11/web-beego1" />
       <recent name="$PROJECT_DIR$/xue-xi/base-随便练习/2022/11" />
       <recent name="$PROJECT_DIR$/xue-xi/算法/2022/爬楼梯" />
-      <recent name="$PROJECT_DIR$/xue-xi/base-zhishi/2022/设计模式/5依赖倒转" />
-      <recent name="$PROJECT_DIR$/xue-xi/you-xi/bili-zinx/mmo_game_zinx/pb" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/xue-xi/base-随便练习/2023" />
@@ -99,63 +105,59 @@
       <recent name="$PROJECT_DIR$/xue-xi/base-zhishi/2022/08/24-gin/gin" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 2023">
-    <configuration name="go build 0320反射.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320反射.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 0320值传递.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320值传递.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 04-20-struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04-20-struct.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 0418-struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0418-struct.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 06-协程池.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/面试/golang/06-协程池.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 2023" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build 2023/xxl4">
+    <configuration name="go build 2023/websocket" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/base-随便练习/2023" />
       <kind value="PACKAGE" />
-      <package value="2023" />
+      <package value="2023/websocket" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04.23string-json.go" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/websocket/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 2023/xxl" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/base-随便练习/2023" />
+      <kind value="PACKAGE" />
+      <package value="2023/xxl" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/xxl/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 2023/xxl2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/base-随便练习/2023" />
+      <kind value="PACKAGE" />
+      <package value="2023/xxl2" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/xxl2/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 2023/xxl4" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/base-随便练习/2023" />
+      <kind value="PACKAGE" />
+      <package value="2023/xxl4" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/xxl4/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build testpprof" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-2022" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/testpprof" />
+      <kind value="PACKAGE" />
+      <package value="testpprof" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/testpprof/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build 2023" />
-        <item itemvalue="Go Build.go build 04-20-struct.go" />
-        <item itemvalue="Go Build.go build 0418-struct.go" />
-        <item itemvalue="Go Build.go build 0320反射.go" />
-        <item itemvalue="Go Build.go build 06-协程池.go" />
+        <item itemvalue="Go Build.go build 2023/xxl4" />
+        <item itemvalue="Go Build.go build 2023/xxl2" />
+        <item itemvalue="Go Build.go build 2023/xxl" />
+        <item itemvalue="Go Build.go build 2023/websocket" />
+        <item itemvalue="Go Build.go build testpprof" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +216,31 @@
           <url>file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/04-20-struct.go</url>
           <line>45</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/websocket/main.go</url>
+          <line>83</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/websocket/main.go</url>
+          <line>87</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-socket.go</url>
+          <line>72</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-socket.go</url>
+          <line>71</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/websocket/main.go</url>
+          <line>108</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
