@@ -9,7 +9,7 @@ import (
 const (
 	ROWS      = 7
 	COLS      = 7
-	MIN_MATCH = 5
+	MIN_MATCH = 3
 )
 
 type Board struct {
@@ -222,7 +222,58 @@ func (b *Board) Play() {
 //另外，我们也加入了支持连续玩法的代码，游戏结束的条件是不再有能够消除的连续块。运行上述代码，你应该能看到如下类似的输出：
 
 
+
+type Tag struct {
+	Id       int
+	Name     string
+	Include  []string `json:"-"`
+	Multiple int
+
+	X int
+	Y int
+
+	IsLine     bool `json:"-"`
+	IsPayTable bool `json:"-"`
+	IsWild     bool `json:"-"`
+	IsSingle   bool `json:"-"` // 是否单出
+	IsJackpot  bool `json:"-"`
+	ISLock     bool `json:"-"` // 是否锁定
+}
+
 func main() {
-	board := NewBoard()
-	board.Play()
+
+	in := []int{1, 2, 3, 4, 5}
+	out := make([]*int, 0)
+	for _, v := range in {
+		//v := v  打开注释即正确
+		out = append(out, &v)
+	}
+
+	fmt.Println("res:", *out[0], *out[1], *out[2])
+
+
+
+/*	t := Tag{
+		Id:         1,
+		Name:       "fff",
+		Include:    nil,
+		Multiple:  int(0.2),
+		X:          0,
+		Y:          0,
+		tzIsLine:     false,
+		IsPayTable: false,
+		IsWild:     true,
+		IsSingle:   false,
+		IsJackpot:  false,
+		ISLock:     false,
+	}
+
+	marshal, _ := json.Marshal(t)
+
+	fmt.Println(string(marshal))
+	fmt.Println(string(11))*/
+	//json.Unmarshal()
+
+	//board := NewBoard()
+	//board.Play()
 }

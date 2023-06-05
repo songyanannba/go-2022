@@ -31,9 +31,6 @@ func main() {
 
 
 
-
-
-
 	/*field, ok := reflect.TypeOf(user).Elem().FieldByName("name")
 	if !ok {
 		panic("Field not found")
