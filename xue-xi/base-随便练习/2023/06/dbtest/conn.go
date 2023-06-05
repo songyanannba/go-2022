@@ -23,10 +23,10 @@ func InitDB() {
 	//)
 
 	var err error
-	//dsn := "root:003416nba@tcp(127.0.0.1:3306)/happy_account_mic_traning?charset=utf8mb4&parseTime=True&loc=Local"
+	//dsn := "root:数据库密码@tcp(127.0.0.1:3306)/数据库名字?charset=utf8mb4&parseTime=True&loc=Local"
 	dsn := fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?charset=utf8mb4&parseTime=True&loc=Local",
 		"root",
-		"003416nba",
+		"数据库密码",
 		"127.0.0.1",
 		3306,
 		"orm_test",

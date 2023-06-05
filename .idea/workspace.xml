@@ -5,35 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="命名">
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/05/file-upload/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/05/file-upload/uploads/file/image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/05/file-upload/uploads/file/image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/dbtest/cassandratest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/dbtest/conn.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/dbtest/mysqltest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/float-int/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/test-/func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/test-/jiegou.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/test-/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/xlsx/example.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/xlsx/example.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/xlsx/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0102对象池.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04/0102对象池.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0315defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04/0315defer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320值传递.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04/0320值传递.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0320反射.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04/0320反射.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04-20-struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04/04-20-struct.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04.23string-json.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04/04.23string-json.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/0418-struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04/0418-struct.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-slict.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04/go-slict.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-socket-heater.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04/go-socket-heater.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-socket-room.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04/go-socket-room.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go-socket.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04/go-socket.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/04/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/xxl4/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/xxl4/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
