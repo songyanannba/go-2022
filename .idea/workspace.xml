@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="命名">
-      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/helper.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/helper范型.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

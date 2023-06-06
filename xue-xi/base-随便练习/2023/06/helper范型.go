@@ -31,3 +31,11 @@ func TestTag () [][]*Tag {
 	return TagList
 }
 
+
+func test1[Key comparable ,Val any](m map[Key]Val) []Val {
+	s := make([]Val, 0)
+	for _,v := range m {
+		s = append(s, v)
+	}
+	return s
+}
