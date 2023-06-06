@@ -8,9 +8,9 @@ import (
 
 func init() {
 	//mysql
-	dbtest.InitDB()
+	//dbtest.InitDB()
 	//cassandra
-	dbtest.InitCassandra()
+	//dbtest.InitCassandra()
 }
 
 func Close() {
@@ -74,13 +74,19 @@ func wBiJiao() {
 }
 
 func main() {
-	defer Close()
+	//defer Close()
 
 	/*dbtest.Read(40005)
 	dbtest.ReadCassandra(1)*/
 
 	//readBiJiao()
-	wBiJiao()
+	//wBiJiao()
+	//
+	//fmt.Println("main")
 
-	fmt.Println("main")
+
+	//
+	tag := TestTag()
+
+	fmt.Println(tag)
 }
