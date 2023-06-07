@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122fecbd-3910-4a12-81a4-b6bcb722c3d5" name="Changes" comment="命名">
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/copy/copy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/gc/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/helper范型.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,7 @@
       <recent name="$PROJECT_DIR$/xue-xi" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 06">
+  <component name="RunManager" selected="Go 构建.go build 06/copy">
     <configuration name="go build 06" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
       <working_directory value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06" />
@@ -104,13 +105,13 @@
       <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 2023/xxl4" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 06/copy" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-2022" />
-      <working_directory value="$PROJECT_DIR$/xue-xi/base-随便练习/2023" />
+      <working_directory value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06" />
       <kind value="PACKAGE" />
-      <package value="2023/xxl4" />
+      <package value="06/copy" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/xxl4/main.go" />
+      <filePath value="$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/copy/copy.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build file-upload" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -148,13 +149,14 @@
     <list>
       <item itemvalue="Go Remote.dlv-tet" />
       <item itemvalue="Go 构建.go build 06" />
-      <item itemvalue="Go 构建.go build 2023/xxl4" />
       <item itemvalue="Go 构建.go build file-upload" />
       <item itemvalue="Go 构建.go build float-int" />
       <item itemvalue="Go 构建.go build xlsx" />
+      <item itemvalue="Go 构建.go build 06/copy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 06/copy" />
         <item itemvalue="Go 构建.go build 06" />
         <item itemvalue="Go 构建.go build file-upload" />
         <item itemvalue="Go 构建.go build xlsx" />
@@ -258,9 +260,19 @@
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/main.go</url>
-          <line>90</line>
-          <option name="timeStamp" value="85" />
+          <url>file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/copy/copy.go</url>
+          <line>30</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/copy/copy.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/xue-xi/base-随便练习/2023/06/copy/copy.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
